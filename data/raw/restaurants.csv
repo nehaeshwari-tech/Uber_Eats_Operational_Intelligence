@@ -1,0 +1,51 @@
+restaurant_id,restaurant_name,cuisine,rating,avg_prep_time_minutes
+1,Restaurant_1,Indian,3.0,36
+2,Restaurant_2,Fast Food,3.7,15
+3,Restaurant_3,Fast Food,2.5,18
+4,Restaurant_4,Italian,4.0,15
+5,Restaurant_5,Mexican,4.0,18
+6,Restaurant_6,Chinese,3.1,16
+7,Restaurant_7,Mexican,3.9,40
+8,Restaurant_8,Italian,3.1,18
+9,Restaurant_9,Italian,2.9,27
+10,Restaurant_10,Italian,4.1,21
+11,Restaurant_11,Indian,3.3,17
+12,Restaurant_12,Mexican,4.0,17
+13,Restaurant_13,Mexican,3.6,27
+14,Restaurant_14,Fast Food,5.0,37
+15,Restaurant_15,Fast Food,2.9,39
+16,Restaurant_16,Fast Food,3.7,29
+17,Restaurant_17,Italian,4.2,39
+18,Restaurant_18,Mexican,3.5,24
+19,Restaurant_19,Italian,4.9,36
+20,Restaurant_20,Indian,4.3,40
+21,Restaurant_21,Fast Food,4.1,16
+22,Restaurant_22,Italian,4.4,20
+23,Restaurant_23,Italian,4.9,29
+24,Restaurant_24,Indian,4.8,25
+25,Restaurant_25,Chinese,4.3,13
+26,Restaurant_26,Mexican,4.4,15
+27,Restaurant_27,Chinese,2.9,35
+28,Restaurant_28,Fast Food,2.8,31
+29,Restaurant_29,Italian,3.9,35
+30,Restaurant_30,Indian,2.5,40
+31,Restaurant_31,Indian,3.7,12
+32,Restaurant_32,Mexican,3.0,40
+33,Restaurant_33,Chinese,3.4,18
+34,Restaurant_34,Mexican,4.4,37
+35,Restaurant_35,Italian,4.9,19
+36,Restaurant_36,Mexican,2.7,23
+37,Restaurant_37,Indian,3.8,20
+38,Restaurant_38,Indian,4.7,27
+39,Restaurant_39,Fast Food,2.7,31
+40,Restaurant_40,Fast Food,4.6,21
+41,Restaurant_41,Italian,3.4,32
+42,Restaurant_42,Chinese,3.3,21
+43,Restaurant_43,Mexican,4.9,22
+44,Restaurant_44,Italian,3.0,34
+45,Restaurant_45,Fast Food,4.2,22
+46,Restaurant_46,Mexican,4.6,28
+47,Restaurant_47,Fast Food,2.6,35
+48,Restaurant_48,Mexican,4.2,28
+49,Restaurant_49,Chinese,4.9,32
+50,Restaurant_50,Italian,2.8,23

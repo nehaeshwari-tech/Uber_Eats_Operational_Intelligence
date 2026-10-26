@@ -1,0 +1,780 @@
+review_id,order_id,customer_id,review_text,sentiment,review_date,processed_review,vader_scores,vader_compound,vader_sentiment,complaint_category
+4,4,373,Order was incorrect,Negative,2025-02-19 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+5,5,172,Poor packaging and bad service,Negative,2025-07-18 08:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+8,8,259,Order was incorrect,Negative,2025-07-03 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+13,13,422,Food was cold,Negative,2025-01-17 22:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+14,14,421,Food arrived late,Negative,2025-07-04 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+18,18,443,Order was incorrect,Negative,2025-06-22 18:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+19,19,95,Order was incorrect,Negative,2025-01-06 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+29,29,472,Poor packaging and bad service,Negative,2025-08-19 19:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+32,32,172,Food arrived late,Negative,2025-07-05 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+35,35,426,Poor packaging and bad service,Negative,2025-10-21 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+43,43,398,Order was incorrect,Negative,2025-12-09 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+44,44,167,Food arrived late,Negative,2025-08-05 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+51,51,265,Food arrived late,Negative,2025-10-14 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+62,62,443,Poor packaging and bad service,Negative,2025-10-11 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+66,66,378,Order was incorrect,Negative,2025-05-17 09:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+67,67,271,Poor packaging and bad service,Negative,2025-10-19 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+71,71,367,Very disappointing experience,Negative,2025-01-21 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+75,75,348,Food was cold,Negative,2025-04-29 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+77,77,463,Very disappointing experience,Negative,2025-11-14 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+79,79,6,Poor packaging and bad service,Negative,2025-02-15 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+80,80,396,Food arrived late,Negative,2025-10-05 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+83,83,77,Poor packaging and bad service,Negative,2025-07-29 00:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+88,88,8,Order was incorrect,Negative,2025-10-03 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+98,98,343,Food arrived late,Negative,2025-08-05 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+99,99,16,Very disappointing experience,Negative,2025-04-14 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+104,104,316,Order was incorrect,Negative,2025-07-30 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+106,106,333,Food was cold,Negative,2025-05-31 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+107,107,327,Food arrived late,Negative,2025-06-27 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+110,110,102,Order was incorrect,Negative,2025-12-11 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+114,114,408,Food was cold,Negative,2025-12-22 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+118,118,1,Food was cold,Negative,2025-06-11 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+119,119,266,Food was cold,Negative,2025-06-25 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+120,120,491,Very disappointing experience,Negative,2025-01-28 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+121,121,208,Poor packaging and bad service,Negative,2025-05-21 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+122,122,110,Very disappointing experience,Negative,2025-01-09 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+129,129,345,Food arrived late,Negative,2025-10-24 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+135,135,334,Food arrived late,Negative,2025-09-12 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+140,140,171,Very disappointing experience,Negative,2025-06-18 05:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+144,144,427,Very disappointing experience,Negative,2025-08-09 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+147,147,190,Very disappointing experience,Negative,2025-06-05 05:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+151,151,284,Order was incorrect,Negative,2025-04-11 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+153,153,315,Order was incorrect,Negative,2025-04-28 09:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+154,154,444,Order was incorrect,Negative,2025-04-15 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+155,155,319,Order was incorrect,Negative,2025-09-06 10:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+162,162,111,Food was cold,Negative,2025-03-02 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+163,163,137,Food was cold,Negative,2025-12-25 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+178,178,464,Poor packaging and bad service,Negative,2025-10-19 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+179,179,280,Poor packaging and bad service,Negative,2025-06-26 01:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+180,180,432,Very disappointing experience,Negative,2025-05-05 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+183,183,429,Order was incorrect,Negative,2025-09-12 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+184,184,269,Food arrived late,Negative,2025-08-24 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+187,187,148,Order was incorrect,Negative,2025-09-03 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+189,189,338,Food arrived late,Negative,2025-12-18 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+190,190,367,Poor packaging and bad service,Negative,2025-04-16 10:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+191,191,338,Order was incorrect,Negative,2025-03-23 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+194,194,301,Order was incorrect,Negative,2025-08-29 12:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+198,198,76,Very disappointing experience,Negative,2025-02-10 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+199,199,495,Very disappointing experience,Negative,2025-01-23 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+204,204,439,Food was cold,Negative,2025-02-05 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+209,209,309,Very disappointing experience,Negative,2025-04-24 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+211,211,238,Food arrived late,Negative,2025-07-01 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+213,213,374,Food was cold,Negative,2025-10-03 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+218,218,193,Food arrived late,Negative,2025-09-29 21:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+219,219,51,Order was incorrect,Negative,2025-06-10 10:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+220,220,427,Order was incorrect,Negative,2025-01-29 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+237,237,180,Food was cold,Negative,2025-05-18 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+242,242,410,Very disappointing experience,Negative,2025-03-27 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+245,245,127,Order was incorrect,Negative,2025-06-04 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+246,246,483,Poor packaging and bad service,Negative,2025-07-06 17:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+247,247,168,Food arrived late,Negative,2025-11-26 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+267,267,282,Very disappointing experience,Negative,2025-07-19 22:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+272,272,65,Poor packaging and bad service,Negative,2025-08-31 19:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+275,275,115,Order was incorrect,Negative,2025-01-25 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+281,281,352,Very disappointing experience,Negative,2025-06-25 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+284,284,491,Food arrived late,Negative,2025-01-17 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+288,288,225,Poor packaging and bad service,Negative,2025-06-01 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+296,296,466,Poor packaging and bad service,Negative,2025-02-02 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+298,298,371,Poor packaging and bad service,Negative,2025-04-04 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+299,299,303,Very disappointing experience,Negative,2025-10-23 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+302,302,170,Food arrived late,Negative,2025-10-23 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+305,305,432,Order was incorrect,Negative,2025-10-23 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+306,306,340,Very disappointing experience,Negative,2025-09-17 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+316,316,90,Poor packaging and bad service,Negative,2025-09-25 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+317,317,296,Order was incorrect,Negative,2025-01-16 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+319,319,301,Very disappointing experience,Negative,2025-08-11 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+323,323,148,Poor packaging and bad service,Negative,2025-08-15 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+326,326,117,Order was incorrect,Negative,2025-02-21 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+327,327,92,Very disappointing experience,Negative,2025-06-09 23:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+331,331,450,Food was cold,Negative,2025-03-18 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+332,332,25,Very disappointing experience,Negative,2025-10-18 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+336,336,134,Poor packaging and bad service,Negative,2025-12-23 17:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+349,349,225,Poor packaging and bad service,Negative,2025-07-10 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+351,351,19,Food was cold,Negative,2025-07-25 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+354,354,241,Food was cold,Negative,2025-04-13 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+359,359,35,Very disappointing experience,Negative,2025-01-02 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+361,361,1,Order was incorrect,Negative,2025-02-22 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+376,376,25,Very disappointing experience,Negative,2025-06-24 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+377,377,16,Very disappointing experience,Negative,2025-12-27 12:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+379,379,499,Very disappointing experience,Negative,2025-03-13 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+392,392,345,Food was cold,Negative,2025-11-03 09:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+398,398,70,Food was cold,Negative,2025-09-08 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+399,399,352,Very disappointing experience,Negative,2025-08-11 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+401,401,48,Food was cold,Negative,2025-04-16 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+402,402,491,Order was incorrect,Negative,2025-05-09 09:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+404,404,287,Order was incorrect,Negative,2025-06-15 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+412,412,244,Order was incorrect,Negative,2025-05-09 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+418,418,191,Poor packaging and bad service,Negative,2025-06-15 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+423,423,154,Food arrived late,Negative,2025-11-04 10:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+426,426,272,Food was cold,Negative,2025-04-01 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+432,432,247,Order was incorrect,Negative,2025-03-18 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+436,436,146,Order was incorrect,Negative,2025-07-26 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+441,441,260,Very disappointing experience,Negative,2025-05-18 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+442,442,426,Food was cold,Negative,2025-05-30 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+446,446,95,Food was cold,Negative,2025-06-14 23:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+447,447,105,Food was cold,Negative,2025-01-07 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+451,451,191,Food arrived late,Negative,2025-09-22 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+454,454,9,Food was cold,Negative,2025-08-15 09:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+455,455,478,Food was cold,Negative,2025-08-01 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+459,459,485,Food was cold,Negative,2025-09-18 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+468,468,73,Very disappointing experience,Negative,2025-02-23 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+476,476,103,Food was cold,Negative,2025-05-25 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+481,481,151,Food arrived late,Negative,2025-07-31 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+491,491,276,Very disappointing experience,Negative,2025-07-29 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+492,492,236,Poor packaging and bad service,Negative,2025-11-30 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+493,493,183,Order was incorrect,Negative,2025-09-10 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+495,495,493,Very disappointing experience,Negative,2025-09-24 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+505,505,195,Order was incorrect,Negative,2025-11-19 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+512,512,192,Poor packaging and bad service,Negative,2025-01-07 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+518,518,467,Order was incorrect,Negative,2025-03-25 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+520,520,367,Order was incorrect,Negative,2025-01-09 12:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+525,525,361,Order was incorrect,Negative,2025-12-01 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+530,530,439,Poor packaging and bad service,Negative,2025-06-16 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+536,536,358,Food arrived late,Negative,2025-03-02 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+540,540,467,Order was incorrect,Negative,2025-08-15 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+542,542,473,Very disappointing experience,Negative,2025-04-09 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+546,546,179,Poor packaging and bad service,Negative,2025-12-04 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+552,552,83,Very disappointing experience,Negative,2025-09-20 16:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+555,555,191,Food arrived late,Negative,2025-10-04 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+561,561,34,Poor packaging and bad service,Negative,2025-09-15 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+563,563,409,Food arrived late,Negative,2025-03-29 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+567,567,215,Food was cold,Negative,2025-03-05 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+568,568,134,Order was incorrect,Negative,2025-06-02 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+573,573,337,Very disappointing experience,Negative,2025-06-06 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+592,592,54,Very disappointing experience,Negative,2025-10-27 17:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+593,593,184,Very disappointing experience,Negative,2025-07-27 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+598,598,179,Poor packaging and bad service,Negative,2025-03-07 17:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+600,600,112,Order was incorrect,Negative,2025-07-22 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+602,602,214,Food was cold,Negative,2025-04-12 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+603,603,59,Poor packaging and bad service,Negative,2025-08-20 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+606,606,109,Order was incorrect,Negative,2025-09-25 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+617,617,237,Order was incorrect,Negative,2025-12-03 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+618,618,104,Food arrived late,Negative,2025-09-10 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+619,619,7,Poor packaging and bad service,Negative,2025-04-06 05:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+621,621,1,Poor packaging and bad service,Negative,2025-10-18 11:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+629,629,123,Order was incorrect,Negative,2025-06-22 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+635,635,63,Food arrived late,Negative,2025-01-29 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+638,638,489,Order was incorrect,Negative,2025-10-25 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+641,641,209,Poor packaging and bad service,Negative,2025-04-18 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+643,643,432,Food arrived late,Negative,2025-08-07 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+646,646,224,Poor packaging and bad service,Negative,2025-01-28 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+647,647,3,Food arrived late,Negative,2025-07-01 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+651,651,99,Order was incorrect,Negative,2025-02-16 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+652,652,116,Order was incorrect,Negative,2025-03-05 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+653,653,270,Poor packaging and bad service,Negative,2025-12-18 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+654,654,447,Very disappointing experience,Negative,2025-06-04 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+655,655,368,Food was cold,Negative,2025-11-30 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+657,657,317,Order was incorrect,Negative,2025-06-11 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+659,659,95,Poor packaging and bad service,Negative,2025-10-10 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+661,661,380,Food was cold,Negative,2025-01-12 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+662,662,24,Food was cold,Negative,2025-01-27 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+664,664,151,Food was cold,Negative,2025-08-21 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+667,667,206,Poor packaging and bad service,Negative,2025-01-25 11:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+671,671,70,Poor packaging and bad service,Negative,2025-06-09 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+687,687,352,Food was cold,Negative,2025-01-07 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+696,696,34,Order was incorrect,Negative,2025-09-09 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+700,700,334,Food was cold,Negative,2025-09-23 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+702,702,349,Very disappointing experience,Negative,2025-12-07 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+704,704,82,Very disappointing experience,Negative,2025-01-20 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+709,709,253,Very disappointing experience,Negative,2025-11-04 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+711,711,38,Food arrived late,Negative,2025-07-17 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+713,713,392,Food was cold,Negative,2025-09-23 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+715,715,310,Food was cold,Negative,2025-06-03 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+718,718,357,Food was cold,Negative,2025-04-19 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+721,721,56,Food arrived late,Negative,2025-07-11 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+722,722,94,Poor packaging and bad service,Negative,2025-08-24 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+724,724,340,Very disappointing experience,Negative,2025-08-23 10:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+730,730,485,Very disappointing experience,Negative,2025-07-18 05:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+734,734,128,Order was incorrect,Negative,2025-11-21 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+737,737,273,Food arrived late,Negative,2025-11-25 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+739,739,442,Food was cold,Negative,2025-10-29 06:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+743,743,423,Poor packaging and bad service,Negative,2025-07-07 05:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+744,744,482,Very disappointing experience,Negative,2025-02-08 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+746,746,390,Food arrived late,Negative,2025-04-24 11:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+752,752,148,Food was cold,Negative,2025-08-31 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+754,754,16,Poor packaging and bad service,Negative,2025-02-11 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+756,756,105,Poor packaging and bad service,Negative,2025-11-21 13:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+761,761,426,Food arrived late,Negative,2025-10-27 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+768,768,320,Food was cold,Negative,2025-02-26 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+769,769,214,Food arrived late,Negative,2025-11-24 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+783,783,1,Poor packaging and bad service,Negative,2025-01-17 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+795,795,106,Food arrived late,Negative,2025-11-06 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+798,798,228,Order was incorrect,Negative,2025-10-07 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+806,806,362,Food was cold,Negative,2025-08-14 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+808,808,56,Food was cold,Negative,2025-10-15 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+809,809,113,Food was cold,Negative,2025-08-31 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+818,818,295,Food arrived late,Negative,2025-07-15 17:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+821,821,465,Order was incorrect,Negative,2025-03-24 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+822,822,79,Food arrived late,Negative,2025-01-30 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+827,827,286,Order was incorrect,Negative,2025-07-24 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+828,828,250,Poor packaging and bad service,Negative,2025-07-13 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+829,829,354,Food was cold,Negative,2025-02-05 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+843,843,494,Very disappointing experience,Negative,2025-10-02 12:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+847,847,363,Order was incorrect,Negative,2025-02-11 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+848,848,285,Poor packaging and bad service,Negative,2025-05-19 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+858,858,184,Very disappointing experience,Negative,2025-10-19 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+866,866,328,Very disappointing experience,Negative,2025-02-08 23:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+867,867,65,Poor packaging and bad service,Negative,2025-06-08 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+870,870,369,Order was incorrect,Negative,2025-04-23 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+873,873,431,Food arrived late,Negative,2025-06-11 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+874,874,455,Food was cold,Negative,2025-06-25 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+882,882,62,Very disappointing experience,Negative,2025-05-12 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+884,884,477,Food was cold,Negative,2025-01-17 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+886,886,459,Order was incorrect,Negative,2025-09-26 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+887,887,212,Order was incorrect,Negative,2025-09-24 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+888,888,126,Very disappointing experience,Negative,2025-06-17 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+894,894,449,Food was cold,Negative,2025-08-17 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+896,896,158,Food arrived late,Negative,2025-06-29 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+900,900,122,Poor packaging and bad service,Negative,2025-08-23 08:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+901,901,273,Food was cold,Negative,2025-11-07 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+903,903,398,Order was incorrect,Negative,2025-02-17 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+904,904,471,Food arrived late,Negative,2025-10-01 11:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+907,907,110,Order was incorrect,Negative,2025-12-23 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+910,910,451,Very disappointing experience,Negative,2025-05-16 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+911,911,56,Order was incorrect,Negative,2025-03-17 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+914,914,57,Very disappointing experience,Negative,2025-05-16 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+916,916,482,Very disappointing experience,Negative,2025-08-04 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+919,919,381,Food arrived late,Negative,2025-01-15 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+920,920,385,Food was cold,Negative,2025-02-17 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+921,921,308,Food arrived late,Negative,2025-03-10 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+922,922,341,Food was cold,Negative,2025-06-16 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+925,925,421,Order was incorrect,Negative,2025-11-23 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+927,927,179,Very disappointing experience,Negative,2025-05-17 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+937,937,168,Very disappointing experience,Negative,2025-08-20 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+938,938,26,Food was cold,Negative,2025-03-18 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+947,947,377,Very disappointing experience,Negative,2025-05-23 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+949,949,23,Poor packaging and bad service,Negative,2025-09-17 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+952,952,181,Food arrived late,Negative,2025-11-23 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+953,953,327,Food arrived late,Negative,2025-11-13 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+958,958,493,Food arrived late,Negative,2025-02-07 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+961,961,78,Order was incorrect,Negative,2025-10-04 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+966,966,2,Very disappointing experience,Negative,2025-12-13 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+971,971,485,Very disappointing experience,Negative,2025-09-22 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+976,976,361,Food was cold,Negative,2025-06-08 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+979,979,438,Food arrived late,Negative,2025-04-09 00:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+981,981,58,Order was incorrect,Negative,2025-12-23 12:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+983,983,211,Food arrived late,Negative,2025-08-18 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+987,987,97,Food was cold,Negative,2025-07-22 09:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+988,988,279,Poor packaging and bad service,Negative,2025-01-15 04:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+992,992,391,Poor packaging and bad service,Negative,2025-01-15 22:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+995,995,27,Order was incorrect,Negative,2025-03-09 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+996,996,282,Food was cold,Negative,2025-10-04 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1005,1005,69,Food arrived late,Negative,2025-04-29 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1014,1014,119,Order was incorrect,Negative,2025-03-13 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1016,1016,334,Very disappointing experience,Negative,2025-05-14 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1018,1018,154,Food was cold,Negative,2025-01-20 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1020,1020,79,Poor packaging and bad service,Negative,2025-02-20 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1021,1021,67,Very disappointing experience,Negative,2025-03-23 16:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1023,1023,413,Food was cold,Negative,2025-02-06 18:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1029,1029,71,Very disappointing experience,Negative,2025-08-11 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1039,1039,61,Food was cold,Negative,2025-09-10 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1041,1041,180,Food was cold,Negative,2025-07-15 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1042,1042,224,Food was cold,Negative,2025-03-24 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1050,1050,228,Food arrived late,Negative,2025-01-05 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1052,1052,126,Poor packaging and bad service,Negative,2025-12-01 00:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1057,1057,115,Poor packaging and bad service,Negative,2025-04-14 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1061,1061,307,Food arrived late,Negative,2025-12-07 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1065,1065,208,Poor packaging and bad service,Negative,2025-05-23 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1066,1066,41,Order was incorrect,Negative,2025-09-01 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1070,1070,155,Food was cold,Negative,2025-05-04 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1076,1076,498,Poor packaging and bad service,Negative,2025-06-05 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1081,1081,114,Very disappointing experience,Negative,2025-11-11 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1082,1082,199,Very disappointing experience,Negative,2025-04-29 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1087,1087,444,Order was incorrect,Negative,2025-01-02 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1091,1091,481,Poor packaging and bad service,Negative,2025-12-03 04:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1098,1098,117,Poor packaging and bad service,Negative,2025-07-24 01:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1099,1099,166,Food was cold,Negative,2025-07-29 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1100,1100,41,Very disappointing experience,Negative,2025-11-06 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1103,1103,424,Very disappointing experience,Negative,2025-02-27 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1104,1104,366,Food arrived late,Negative,2025-02-15 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1107,1107,145,Very disappointing experience,Negative,2025-11-27 18:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1109,1109,229,Food arrived late,Negative,2025-08-14 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1110,1110,313,Food was cold,Negative,2025-03-29 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1111,1111,130,Poor packaging and bad service,Negative,2025-03-30 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1114,1114,318,Food arrived late,Negative,2025-08-24 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1119,1119,273,Food arrived late,Negative,2025-11-22 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1120,1120,117,Very disappointing experience,Negative,2025-11-03 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1126,1126,203,Very disappointing experience,Negative,2025-02-21 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1129,1129,402,Food was cold,Negative,2025-08-25 22:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1135,1135,401,Food arrived late,Negative,2025-08-30 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1137,1137,42,Poor packaging and bad service,Negative,2025-04-28 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1145,1145,14,Food was cold,Negative,2025-10-29 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1146,1146,433,Food arrived late,Negative,2025-11-15 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1149,1149,132,Order was incorrect,Negative,2025-01-07 15:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1150,1150,338,Food arrived late,Negative,2025-10-01 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1156,1156,108,Poor packaging and bad service,Negative,2025-08-21 22:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1157,1157,265,Poor packaging and bad service,Negative,2025-10-16 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1160,1160,155,Food arrived late,Negative,2025-07-26 01:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1162,1162,476,Food arrived late,Negative,2025-10-20 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1166,1166,346,Very disappointing experience,Negative,2025-03-20 12:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1167,1167,436,Food arrived late,Negative,2025-03-17 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1170,1170,154,Food arrived late,Negative,2025-09-10 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1174,1174,433,Poor packaging and bad service,Negative,2025-08-08 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1175,1175,338,Food arrived late,Negative,2025-11-22 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1177,1177,181,Order was incorrect,Negative,2025-04-20 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1179,1179,450,Food arrived late,Negative,2025-06-26 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1180,1180,481,Poor packaging and bad service,Negative,2025-08-30 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1184,1184,492,Food arrived late,Negative,2025-12-16 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1186,1186,76,Order was incorrect,Negative,2025-12-27 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1187,1187,177,Order was incorrect,Negative,2025-09-23 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1190,1190,131,Food arrived late,Negative,2025-09-21 06:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1193,1193,55,Very disappointing experience,Negative,2025-05-31 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1204,1204,356,Very disappointing experience,Negative,2025-08-14 23:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1206,1206,408,Food was cold,Negative,2025-08-25 08:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1214,1214,118,Food arrived late,Negative,2025-08-12 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1218,1218,200,Food was cold,Negative,2025-04-05 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1222,1222,134,Order was incorrect,Negative,2025-06-12 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1228,1228,334,Order was incorrect,Negative,2025-03-14 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1232,1232,334,Food arrived late,Negative,2025-05-15 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1233,1233,199,Order was incorrect,Negative,2025-01-23 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1234,1234,161,Very disappointing experience,Negative,2025-03-02 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1239,1239,63,Food arrived late,Negative,2025-11-08 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1256,1256,78,Poor packaging and bad service,Negative,2025-04-21 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1257,1257,216,Order was incorrect,Negative,2025-03-28 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1265,1265,484,Food was cold,Negative,2025-05-15 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1266,1266,424,Very disappointing experience,Negative,2025-04-25 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1270,1270,87,Food was cold,Negative,2025-04-03 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1271,1271,79,Food was cold,Negative,2025-04-27 08:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1278,1278,130,Order was incorrect,Negative,2025-04-27 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1283,1283,387,Food arrived late,Negative,2025-07-10 19:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1286,1286,296,Poor packaging and bad service,Negative,2025-11-05 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1290,1290,272,Order was incorrect,Negative,2025-07-04 10:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1292,1292,162,Food arrived late,Negative,2025-12-16 10:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1293,1293,44,Food arrived late,Negative,2025-12-28 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1294,1294,238,Poor packaging and bad service,Negative,2025-04-02 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1296,1296,461,Food was cold,Negative,2025-05-17 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1297,1297,192,Food arrived late,Negative,2025-02-15 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1304,1304,246,Food arrived late,Negative,2025-10-06 11:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1305,1305,222,Poor packaging and bad service,Negative,2025-01-12 13:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1308,1308,488,Food was cold,Negative,2025-11-16 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1318,1318,357,Poor packaging and bad service,Negative,2025-03-25 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1323,1323,11,Food arrived late,Negative,2025-11-13 21:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1324,1324,143,Food was cold,Negative,2025-04-19 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1325,1325,192,Very disappointing experience,Negative,2025-12-14 22:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1326,1326,387,Order was incorrect,Negative,2025-07-19 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1327,1327,378,Very disappointing experience,Negative,2025-05-19 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1331,1331,293,Very disappointing experience,Negative,2025-08-25 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1334,1334,387,Order was incorrect,Negative,2025-04-26 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1335,1335,93,Food was cold,Negative,2025-06-01 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1337,1337,17,Food arrived late,Negative,2025-09-25 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1338,1338,154,Food arrived late,Negative,2025-11-11 21:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1340,1340,328,Food arrived late,Negative,2025-10-02 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1346,1346,106,Food arrived late,Negative,2025-02-16 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1347,1347,472,Food arrived late,Negative,2025-01-21 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1352,1352,14,Poor packaging and bad service,Negative,2025-11-24 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1354,1354,140,Very disappointing experience,Negative,2025-08-16 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1358,1358,238,Poor packaging and bad service,Negative,2025-09-12 06:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1360,1360,169,Order was incorrect,Negative,2025-02-06 18:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1361,1361,10,Poor packaging and bad service,Negative,2025-06-01 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1367,1367,223,Very disappointing experience,Negative,2025-08-12 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1369,1369,257,Order was incorrect,Negative,2025-05-14 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1377,1377,85,Very disappointing experience,Negative,2025-09-06 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1391,1391,125,Very disappointing experience,Negative,2025-04-09 17:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1392,1392,307,Food was cold,Negative,2025-06-01 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1403,1403,124,Order was incorrect,Negative,2025-10-06 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1406,1406,10,Very disappointing experience,Negative,2025-07-04 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1419,1419,242,Food was cold,Negative,2025-05-12 18:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1423,1423,236,Order was incorrect,Negative,2025-12-14 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1428,1428,216,Poor packaging and bad service,Negative,2025-08-19 00:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1430,1430,135,Food was cold,Negative,2025-04-26 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1432,1432,129,Food was cold,Negative,2025-04-30 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1438,1438,44,Food arrived late,Negative,2025-09-20 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1439,1439,86,Poor packaging and bad service,Negative,2025-11-22 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1447,1447,51,Food was cold,Negative,2025-01-26 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1453,1453,120,Very disappointing experience,Negative,2025-01-13 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1460,1460,382,Food was cold,Negative,2025-01-25 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1462,1462,472,Very disappointing experience,Negative,2025-12-18 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1463,1463,289,Very disappointing experience,Negative,2025-06-28 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1466,1466,440,Food was cold,Negative,2025-02-04 08:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1478,1478,426,Very disappointing experience,Negative,2025-05-10 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1479,1479,32,Food arrived late,Negative,2025-06-20 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1482,1482,25,Food was cold,Negative,2025-03-19 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1484,1484,279,Food was cold,Negative,2025-04-25 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1485,1485,226,Very disappointing experience,Negative,2025-10-06 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1486,1486,57,Poor packaging and bad service,Negative,2025-01-09 13:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1490,1490,343,Order was incorrect,Negative,2025-10-28 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1492,1492,287,Very disappointing experience,Negative,2025-08-03 05:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1494,1494,455,Very disappointing experience,Negative,2025-04-23 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1495,1495,232,Food was cold,Negative,2025-03-24 23:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1497,1497,213,Poor packaging and bad service,Negative,2025-05-17 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1502,1502,229,Food arrived late,Negative,2025-04-29 00:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1503,1503,226,Food was cold,Negative,2025-08-25 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1504,1504,84,Food was cold,Negative,2025-10-02 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1507,1507,370,Food was cold,Negative,2025-04-27 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1514,1514,381,Very disappointing experience,Negative,2025-10-30 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1515,1515,30,Food arrived late,Negative,2025-03-21 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1518,1518,394,Order was incorrect,Negative,2025-01-17 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1519,1519,343,Food was cold,Negative,2025-01-07 22:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1522,1522,139,Very disappointing experience,Negative,2025-06-02 16:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1531,1531,89,Food arrived late,Negative,2025-03-06 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1535,1535,210,Poor packaging and bad service,Negative,2025-03-21 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1537,1537,350,Food was cold,Negative,2025-04-03 22:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1543,1543,208,Very disappointing experience,Negative,2025-02-17 23:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1545,1545,140,Very disappointing experience,Negative,2025-09-09 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1548,1548,309,Food was cold,Negative,2025-12-10 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1554,1554,410,Food arrived late,Negative,2025-07-18 17:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1557,1557,13,Order was incorrect,Negative,2025-05-04 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1558,1558,339,Poor packaging and bad service,Negative,2025-06-13 10:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1563,1563,379,Food arrived late,Negative,2025-08-09 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1564,1564,186,Food was cold,Negative,2025-04-04 08:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1565,1565,250,Food was cold,Negative,2025-03-03 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1567,1567,76,Food arrived late,Negative,2025-01-17 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1569,1569,459,Order was incorrect,Negative,2025-03-19 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1572,1572,82,Very disappointing experience,Negative,2025-06-02 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1587,1587,424,Food was cold,Negative,2025-07-11 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1597,1597,330,Order was incorrect,Negative,2025-05-13 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1601,1601,181,Order was incorrect,Negative,2025-10-29 12:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1605,1605,362,Food was cold,Negative,2025-01-03 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1607,1607,127,Food arrived late,Negative,2025-05-29 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1613,1613,255,Order was incorrect,Negative,2025-11-23 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1620,1620,388,Very disappointing experience,Negative,2025-09-05 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1625,1625,421,Poor packaging and bad service,Negative,2025-09-04 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1627,1627,221,Food arrived late,Negative,2025-04-26 01:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1633,1633,219,Food was cold,Negative,2025-09-14 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1634,1634,487,Order was incorrect,Negative,2025-01-22 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1639,1639,144,Food was cold,Negative,2025-10-26 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1642,1642,255,Food was cold,Negative,2025-08-23 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1644,1644,104,Order was incorrect,Negative,2025-09-20 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1646,1646,159,Order was incorrect,Negative,2025-12-14 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1654,1654,256,Very disappointing experience,Negative,2025-02-24 10:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1662,1662,244,Order was incorrect,Negative,2025-04-21 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1663,1663,182,Order was incorrect,Negative,2025-09-25 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1667,1667,197,Food arrived late,Negative,2025-02-22 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1681,1681,324,Poor packaging and bad service,Negative,2025-10-22 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1694,1694,143,Food was cold,Negative,2025-06-03 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1695,1695,166,Poor packaging and bad service,Negative,2025-04-12 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1700,1700,182,Food was cold,Negative,2025-06-22 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1708,1708,488,Food arrived late,Negative,2025-08-26 06:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1717,1717,9,Food was cold,Negative,2025-06-12 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1719,1719,309,Food was cold,Negative,2025-02-19 08:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1728,1728,260,Food was cold,Negative,2025-03-25 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1729,1729,349,Food arrived late,Negative,2025-02-06 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1733,1733,434,Food arrived late,Negative,2025-12-28 21:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1734,1734,207,Poor packaging and bad service,Negative,2025-01-21 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1735,1735,28,Order was incorrect,Negative,2025-10-14 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1742,1742,234,Poor packaging and bad service,Negative,2025-05-02 08:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1747,1747,273,Very disappointing experience,Negative,2025-12-26 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1756,1756,423,Poor packaging and bad service,Negative,2025-12-01 17:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1766,1766,457,Order was incorrect,Negative,2025-11-01 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1768,1768,199,Very disappointing experience,Negative,2025-12-13 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1772,1772,472,Food was cold,Negative,2025-01-27 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1779,1779,367,Order was incorrect,Negative,2025-07-30 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1780,1780,168,Poor packaging and bad service,Negative,2025-01-09 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1795,1795,27,Poor packaging and bad service,Negative,2025-10-18 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1796,1796,452,Food arrived late,Negative,2025-01-06 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1799,1799,478,Poor packaging and bad service,Negative,2025-10-28 06:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1800,1800,492,Order was incorrect,Negative,2025-01-28 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1801,1801,414,Food was cold,Negative,2025-04-14 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1804,1804,214,Food was cold,Negative,2025-12-06 07:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1810,1810,305,Food arrived late,Negative,2025-03-10 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1812,1812,311,Very disappointing experience,Negative,2025-08-04 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1814,1814,312,Very disappointing experience,Negative,2025-06-03 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1816,1816,351,Food arrived late,Negative,2025-07-09 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1817,1817,44,Food arrived late,Negative,2025-12-28 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1818,1818,415,Food was cold,Negative,2025-07-18 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1819,1819,186,Poor packaging and bad service,Negative,2025-07-02 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1822,1822,437,Very disappointing experience,Negative,2025-12-29 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1830,1830,463,Very disappointing experience,Negative,2025-01-07 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1836,1836,414,Poor packaging and bad service,Negative,2025-12-14 00:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1839,1839,206,Poor packaging and bad service,Negative,2025-05-29 00:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1841,1841,420,Food arrived late,Negative,2025-04-04 10:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1846,1846,365,Food was cold,Negative,2025-08-23 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1859,1859,42,Poor packaging and bad service,Negative,2025-08-13 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1864,1864,378,Very disappointing experience,Negative,2025-06-01 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1865,1865,394,Food was cold,Negative,2025-09-21 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1874,1874,193,Food was cold,Negative,2025-10-30 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1877,1877,231,Order was incorrect,Negative,2025-06-09 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1879,1879,85,Order was incorrect,Negative,2025-07-04 18:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1883,1883,265,Very disappointing experience,Negative,2025-07-28 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1885,1885,69,Food arrived late,Negative,2025-06-06 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1888,1888,62,Food was cold,Negative,2025-10-11 09:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1894,1894,171,Food was cold,Negative,2025-04-17 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1908,1908,378,Order was incorrect,Negative,2025-01-01 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1910,1910,266,Food arrived late,Negative,2025-09-05 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+1922,1922,312,Food was cold,Negative,2025-09-27 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1926,1926,404,Order was incorrect,Negative,2025-09-27 01:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1927,1927,486,Very disappointing experience,Negative,2025-03-20 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1929,1929,25,Poor packaging and bad service,Negative,2025-04-29 22:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1933,1933,277,Poor packaging and bad service,Negative,2025-12-10 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1934,1934,18,Poor packaging and bad service,Negative,2025-05-31 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1940,1940,384,Order was incorrect,Negative,2025-03-22 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1944,1944,387,Very disappointing experience,Negative,2025-01-21 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1953,1953,237,Very disappointing experience,Negative,2025-04-18 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1956,1956,55,Food was cold,Negative,2025-11-05 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1958,1958,436,Order was incorrect,Negative,2025-03-09 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1961,1961,354,Very disappointing experience,Negative,2025-08-16 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+1965,1965,368,Food was cold,Negative,2025-01-16 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1969,1969,373,Order was incorrect,Negative,2025-01-16 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1970,1970,461,Poor packaging and bad service,Negative,2025-06-30 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1972,1972,87,Food was cold,Negative,2025-04-24 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1981,1981,42,Poor packaging and bad service,Negative,2025-11-15 15:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1982,1982,42,Order was incorrect,Negative,2025-07-25 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1988,1988,431,Poor packaging and bad service,Negative,2025-10-07 22:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+1989,1989,258,Order was incorrect,Negative,2025-04-18 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+1991,1991,62,Food was cold,Negative,2025-07-07 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+1995,1995,325,Order was incorrect,Negative,2025-03-18 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2001,2001,455,Very disappointing experience,Negative,2025-06-23 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2002,2002,81,Order was incorrect,Negative,2025-09-09 09:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2004,2004,36,Order was incorrect,Negative,2025-02-20 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2005,2005,424,Order was incorrect,Negative,2025-07-27 20:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2007,2007,388,Poor packaging and bad service,Negative,2025-04-24 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2008,2008,486,Food arrived late,Negative,2025-12-20 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2011,2011,158,Food was cold,Negative,2025-03-03 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2017,2017,196,Food arrived late,Negative,2025-05-04 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2021,2021,325,Very disappointing experience,Negative,2025-01-07 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2025,2025,211,Order was incorrect,Negative,2025-02-11 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2028,2028,17,Very disappointing experience,Negative,2025-02-22 10:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2030,2030,344,Food arrived late,Negative,2025-12-29 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2032,2032,99,Poor packaging and bad service,Negative,2025-01-03 19:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2034,2034,209,Poor packaging and bad service,Negative,2025-07-06 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2037,2037,288,Very disappointing experience,Negative,2025-01-24 20:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2043,2043,188,Order was incorrect,Negative,2025-01-28 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2044,2044,419,Food was cold,Negative,2025-08-28 05:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2050,2050,148,Food arrived late,Negative,2025-07-28 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2051,2051,321,Food was cold,Negative,2025-08-29 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2056,2056,10,Food was cold,Negative,2025-11-23 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2062,2062,103,Poor packaging and bad service,Negative,2025-06-04 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2077,2077,72,Food arrived late,Negative,2025-07-08 17:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2078,2078,310,Poor packaging and bad service,Negative,2025-02-17 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2079,2079,479,Food arrived late,Negative,2025-12-23 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2080,2080,254,Poor packaging and bad service,Negative,2025-10-29 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2085,2085,38,Order was incorrect,Negative,2025-02-17 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2087,2087,393,Poor packaging and bad service,Negative,2025-11-04 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2088,2088,201,Very disappointing experience,Negative,2025-04-23 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2094,2094,82,Food arrived late,Negative,2025-05-06 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2105,2105,204,Food was cold,Negative,2025-07-17 07:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2108,2108,206,Order was incorrect,Negative,2025-09-02 10:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2110,2110,159,Order was incorrect,Negative,2025-02-10 15:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2111,2111,279,Food was cold,Negative,2025-10-28 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2116,2116,311,Order was incorrect,Negative,2025-05-19 15:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2121,2121,1,Very disappointing experience,Negative,2025-05-18 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2123,2123,185,Food was cold,Negative,2025-11-06 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2128,2128,108,Food was cold,Negative,2025-06-10 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2131,2131,358,Very disappointing experience,Negative,2025-09-09 10:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2133,2133,396,Order was incorrect,Negative,2025-03-06 10:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2135,2135,146,Food arrived late,Negative,2025-02-15 14:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2136,2136,450,Food was cold,Negative,2025-04-11 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2137,2137,74,Food arrived late,Negative,2025-04-20 01:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2141,2141,122,Food arrived late,Negative,2025-05-12 11:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2144,2144,327,Order was incorrect,Negative,2025-08-14 15:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2147,2147,479,Very disappointing experience,Negative,2025-09-09 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2150,2150,487,Poor packaging and bad service,Negative,2025-02-05 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2154,2154,498,Very disappointing experience,Negative,2025-11-13 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2159,2159,382,Order was incorrect,Negative,2025-09-11 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2160,2160,418,Very disappointing experience,Negative,2025-04-12 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2165,2165,178,Very disappointing experience,Negative,2025-11-03 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2166,2166,357,Food was cold,Negative,2025-02-23 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2170,2170,3,Food was cold,Negative,2025-11-10 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2175,2175,67,Food was cold,Negative,2025-05-11 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2181,2181,269,Food arrived late,Negative,2025-09-21 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2182,2182,376,Very disappointing experience,Negative,2025-12-17 17:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2183,2183,322,Order was incorrect,Negative,2025-02-02 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2184,2184,4,Order was incorrect,Negative,2025-08-06 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2185,2185,138,Very disappointing experience,Negative,2025-01-29 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2187,2187,88,Poor packaging and bad service,Negative,2025-07-31 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2188,2188,17,Food arrived late,Negative,2025-12-03 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2194,2194,458,Poor packaging and bad service,Negative,2025-11-17 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2200,2200,24,Very disappointing experience,Negative,2025-02-05 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2205,2205,483,Food arrived late,Negative,2025-10-02 11:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2206,2206,259,Poor packaging and bad service,Negative,2025-01-10 10:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2208,2208,357,Food was cold,Negative,2025-10-27 09:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2220,2220,302,Food was cold,Negative,2025-07-03 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2229,2229,355,Order was incorrect,Negative,2025-01-03 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2231,2231,489,Food was cold,Negative,2025-11-12 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2240,2240,474,Very disappointing experience,Negative,2025-07-06 18:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2242,2242,367,Poor packaging and bad service,Negative,2025-10-29 19:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2243,2243,107,Poor packaging and bad service,Negative,2025-09-04 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2246,2246,227,Poor packaging and bad service,Negative,2025-11-24 21:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2252,2252,84,Poor packaging and bad service,Negative,2025-09-30 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2257,2257,313,Food was cold,Negative,2025-04-17 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2258,2258,181,Very disappointing experience,Negative,2025-01-15 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2259,2259,493,Food arrived late,Negative,2025-05-05 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2264,2264,353,Very disappointing experience,Negative,2025-08-15 23:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2265,2265,57,Food arrived late,Negative,2025-09-13 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2269,2269,128,Order was incorrect,Negative,2025-12-21 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2271,2271,35,Very disappointing experience,Negative,2025-02-17 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2277,2277,382,Poor packaging and bad service,Negative,2025-05-20 07:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2280,2280,184,Poor packaging and bad service,Negative,2025-11-16 22:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2281,2281,394,Order was incorrect,Negative,2025-05-20 21:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2283,2283,116,Food arrived late,Negative,2025-10-09 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2298,2298,441,Poor packaging and bad service,Negative,2025-04-23 08:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2299,2299,226,Food was cold,Negative,2025-03-13 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2304,2304,199,Order was incorrect,Negative,2025-03-17 06:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2305,2305,39,Poor packaging and bad service,Negative,2025-03-04 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2312,2312,91,Order was incorrect,Negative,2025-05-10 17:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2317,2317,214,Food arrived late,Negative,2025-12-25 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2320,2320,335,Food arrived late,Negative,2025-12-28 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2325,2325,165,Order was incorrect,Negative,2025-06-30 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2332,2332,133,Food arrived late,Negative,2025-11-11 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2340,2340,243,Order was incorrect,Negative,2025-02-22 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2341,2341,479,Order was incorrect,Negative,2025-08-12 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2343,2343,138,Food arrived late,Negative,2025-09-17 10:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2344,2344,79,Food arrived late,Negative,2025-08-10 01:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2345,2345,170,Food arrived late,Negative,2025-09-02 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2349,2349,82,Food arrived late,Negative,2025-03-23 17:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2350,2350,87,Food arrived late,Negative,2025-04-30 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2354,2354,358,Very disappointing experience,Negative,2025-06-16 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2356,2356,98,Poor packaging and bad service,Negative,2025-11-20 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2360,2360,397,Food was cold,Negative,2025-12-30 16:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2361,2361,169,Food arrived late,Negative,2025-11-16 22:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2365,2365,375,Order was incorrect,Negative,2025-02-15 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2367,2367,181,Poor packaging and bad service,Negative,2025-06-26 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2368,2368,231,Food arrived late,Negative,2025-08-10 10:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2378,2378,410,Very disappointing experience,Negative,2025-09-29 07:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2380,2380,7,Order was incorrect,Negative,2025-06-03 00:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2384,2384,187,Food arrived late,Negative,2025-08-20 08:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2385,2385,38,Food was cold,Negative,2025-01-27 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2386,2386,453,Food arrived late,Negative,2025-10-02 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2388,2388,476,Food was cold,Negative,2025-04-08 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2394,2394,48,Order was incorrect,Negative,2025-02-10 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2396,2396,147,Order was incorrect,Negative,2025-04-22 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2398,2398,64,Order was incorrect,Negative,2025-11-10 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2400,2400,182,Food was cold,Negative,2025-03-24 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2403,2403,39,Poor packaging and bad service,Negative,2025-06-19 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2409,2409,372,Very disappointing experience,Negative,2025-02-12 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2414,2414,203,Food arrived late,Negative,2025-06-28 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2416,2416,481,Order was incorrect,Negative,2025-09-08 09:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2420,2420,102,Food arrived late,Negative,2025-02-22 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2421,2421,46,Food arrived late,Negative,2025-06-13 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2422,2422,66,Poor packaging and bad service,Negative,2025-01-25 08:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2436,2436,385,Order was incorrect,Negative,2025-04-15 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2439,2439,486,Very disappointing experience,Negative,2025-03-13 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2443,2443,51,Very disappointing experience,Negative,2025-02-07 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2444,2444,386,Poor packaging and bad service,Negative,2025-08-20 14:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2454,2454,188,Very disappointing experience,Negative,2025-03-26 12:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2457,2457,415,Food was cold,Negative,2025-09-04 00:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2459,2459,114,Food was cold,Negative,2025-01-07 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2461,2461,164,Food was cold,Negative,2025-01-25 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2463,2463,49,Order was incorrect,Negative,2025-04-28 13:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2465,2465,326,Food was cold,Negative,2025-11-17 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2468,2468,387,Very disappointing experience,Negative,2025-11-28 18:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2469,2469,458,Food was cold,Negative,2025-01-12 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2480,2480,26,Very disappointing experience,Negative,2025-04-20 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2486,2486,144,Food arrived late,Negative,2025-07-14 14:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2497,2497,311,Food was cold,Negative,2025-02-14 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2498,2498,235,Food arrived late,Negative,2025-08-05 00:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2499,2499,149,Poor packaging and bad service,Negative,2025-04-11 02:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2500,2500,322,Order was incorrect,Negative,2025-07-23 23:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2501,2501,438,Food was cold,Negative,2025-11-02 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2502,2502,155,Poor packaging and bad service,Negative,2025-03-23 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2508,2508,174,Food was cold,Negative,2025-07-08 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2511,2511,456,Food arrived late,Negative,2025-02-01 13:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2515,2515,199,Food was cold,Negative,2025-02-10 01:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2524,2524,248,Very disappointing experience,Negative,2025-06-19 10:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2536,2536,94,Food arrived late,Negative,2025-04-16 21:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2539,2539,285,Poor packaging and bad service,Negative,2025-05-12 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2544,2544,374,Order was incorrect,Negative,2025-03-02 07:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2551,2551,93,Very disappointing experience,Negative,2025-06-15 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2555,2555,432,Very disappointing experience,Negative,2025-10-30 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2564,2564,216,Food arrived late,Negative,2025-02-10 12:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2576,2576,389,Poor packaging and bad service,Negative,2025-11-05 23:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2585,2585,322,Food arrived late,Negative,2025-11-26 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2595,2595,153,Food arrived late,Negative,2025-09-16 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2596,2596,182,Very disappointing experience,Negative,2025-08-16 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2597,2597,125,Order was incorrect,Negative,2025-12-18 08:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2598,2598,67,Food arrived late,Negative,2025-09-02 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2600,2600,125,Food was cold,Negative,2025-02-12 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2602,2602,326,Poor packaging and bad service,Negative,2025-03-20 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2609,2609,204,Order was incorrect,Negative,2025-01-04 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2617,2617,65,Food arrived late,Negative,2025-07-14 14:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2620,2620,251,Food was cold,Negative,2025-01-06 20:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2622,2622,117,Food arrived late,Negative,2025-01-01 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2626,2626,105,Food was cold,Negative,2025-12-29 23:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2629,2629,46,Food was cold,Negative,2025-07-20 15:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2630,2630,311,Food was cold,Negative,2025-04-29 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2634,2634,448,Food arrived late,Negative,2025-02-10 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2639,2639,449,Poor packaging and bad service,Negative,2025-02-28 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2640,2640,24,Food arrived late,Negative,2025-10-17 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2641,2641,458,Food arrived late,Negative,2025-06-28 18:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2652,2652,438,Food arrived late,Negative,2025-07-25 06:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2653,2653,207,Food arrived late,Negative,2025-06-15 09:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2656,2656,249,Very disappointing experience,Negative,2025-10-24 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2662,2662,115,Order was incorrect,Negative,2025-09-23 04:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2666,2666,483,Order was incorrect,Negative,2025-11-26 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2672,2672,103,Very disappointing experience,Negative,2025-12-24 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2678,2678,315,Order was incorrect,Negative,2025-03-19 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2679,2679,39,Very disappointing experience,Negative,2025-09-05 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2685,2685,161,Very disappointing experience,Negative,2025-08-10 04:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2691,2691,383,Poor packaging and bad service,Negative,2025-02-18 09:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2694,2694,132,Poor packaging and bad service,Negative,2025-04-09 11:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2700,2700,28,Food arrived late,Negative,2025-01-11 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2701,2701,333,Very disappointing experience,Negative,2025-02-08 14:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2707,2707,286,Food arrived late,Negative,2025-05-22 14:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2722,2722,109,Poor packaging and bad service,Negative,2025-10-04 12:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2724,2724,357,Very disappointing experience,Negative,2025-01-01 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2725,2725,181,Very disappointing experience,Negative,2025-01-09 02:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2730,2730,180,Food arrived late,Negative,2025-11-29 16:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2733,2733,434,Poor packaging and bad service,Negative,2025-06-11 03:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2734,2734,464,Poor packaging and bad service,Negative,2025-07-23 01:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2738,2738,66,Food was cold,Negative,2025-02-12 07:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2739,2739,21,Very disappointing experience,Negative,2025-02-27 16:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2740,2740,100,Very disappointing experience,Negative,2025-12-31 09:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2746,2746,285,Food arrived late,Negative,2025-07-10 03:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2749,2749,85,Food arrived late,Negative,2025-08-22 01:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2751,2751,336,Food arrived late,Negative,2025-08-19 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2757,2757,462,Food arrived late,Negative,2025-08-30 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2758,2758,49,Food was cold,Negative,2025-07-23 11:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2763,2763,238,Food was cold,Negative,2025-08-05 13:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2770,2770,442,Poor packaging and bad service,Negative,2025-11-23 01:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2771,2771,495,Very disappointing experience,Negative,2025-06-15 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2777,2777,211,Order was incorrect,Negative,2025-06-22 03:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2780,2780,82,Order was incorrect,Negative,2025-04-26 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2782,2782,388,Poor packaging and bad service,Negative,2025-12-16 10:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2794,2794,74,Food was cold,Negative,2025-04-09 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2796,2796,337,Food arrived late,Negative,2025-09-04 15:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2798,2798,301,Order was incorrect,Negative,2025-10-04 14:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2805,2805,146,Very disappointing experience,Negative,2025-01-26 15:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2806,2806,9,Food arrived late,Negative,2025-10-15 23:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2813,2813,409,Poor packaging and bad service,Negative,2025-07-10 11:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2815,2815,390,Order was incorrect,Negative,2025-04-04 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2824,2824,441,Food was cold,Negative,2025-07-25 12:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2825,2825,433,Food was cold,Negative,2025-07-11 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2826,2826,172,Order was incorrect,Negative,2025-04-26 18:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2838,2838,429,Order was incorrect,Negative,2025-12-13 16:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2840,2840,210,Food arrived late,Negative,2025-11-09 05:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2846,2846,473,Order was incorrect,Negative,2025-08-22 02:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2847,2847,313,Very disappointing experience,Negative,2025-11-10 19:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2849,2849,461,Very disappointing experience,Negative,2025-03-10 12:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2850,2850,196,Very disappointing experience,Negative,2025-05-12 00:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2852,2852,462,Poor packaging and bad service,Negative,2025-06-20 05:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2855,2855,52,Food arrived late,Negative,2025-10-25 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2858,2858,300,Food was cold,Negative,2025-09-21 19:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2861,2861,389,Order was incorrect,Negative,2025-03-31 22:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2863,2863,69,Food arrived late,Negative,2025-06-18 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2864,2864,415,Poor packaging and bad service,Negative,2025-03-26 19:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2866,2866,137,Food was cold,Negative,2025-02-05 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2867,2867,234,Food arrived late,Negative,2025-06-09 07:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2869,2869,289,Food was cold,Negative,2025-01-13 10:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2878,2878,185,Poor packaging and bad service,Negative,2025-10-02 06:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2897,2897,130,Food was cold,Negative,2025-03-20 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2906,2906,130,Very disappointing experience,Negative,2025-06-25 13:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2917,2917,312,Very disappointing experience,Negative,2025-02-08 08:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2918,2918,171,Food arrived late,Negative,2025-10-20 00:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2919,2919,383,Very disappointing experience,Negative,2025-04-10 05:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2920,2920,473,Food was cold,Negative,2025-05-31 18:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2921,2921,162,Very disappointing experience,Negative,2025-07-05 03:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2926,2926,454,Food arrived late,Negative,2025-07-19 04:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2932,2932,26,Food arrived late,Negative,2025-09-23 00:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2933,2933,313,Very disappointing experience,Negative,2025-11-16 01:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2934,2934,126,Food was cold,Negative,2025-05-30 14:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2937,2937,198,Very disappointing experience,Negative,2025-01-17 06:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2942,2942,298,Very disappointing experience,Negative,2025-02-20 11:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other
+2943,2943,204,Food was cold,Negative,2025-03-06 03:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2946,2946,450,Order was incorrect,Negative,2025-02-23 11:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2953,2953,100,Food was cold,Negative,2025-08-14 02:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2955,2955,436,Order was incorrect,Negative,2025-08-08 19:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2957,2957,44,Food arrived late,Negative,2025-03-01 20:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2958,2958,278,Food arrived late,Negative,2025-12-31 14:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2960,2960,187,Food was cold,Negative,2025-07-08 04:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2962,2962,114,Food was cold,Negative,2025-07-03 07:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2968,2968,264,Food arrived late,Negative,2025-11-04 02:00:00,food arrived late,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Late Delivery
+2972,2972,329,Poor packaging and bad service,Negative,2025-09-23 05:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2973,2973,115,Poor packaging and bad service,Negative,2025-01-29 20:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2983,2983,211,Order was incorrect,Negative,2025-04-21 05:00:00,order incorrect,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Incorrect or Missing Order
+2986,2986,40,Poor packaging and bad service,Negative,2025-08-17 04:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2988,2988,26,Poor packaging and bad service,Negative,2025-03-28 16:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2989,2989,27,Food was cold,Negative,2025-09-11 17:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2993,2993,434,Poor packaging and bad service,Negative,2025-12-14 18:00:00,poor packaging bad service,"{'neg': 0.688, 'neu': 0.312, 'pos': 0.0, 'compound': -0.765}",-0.765,Negative,"Packaging Issues, Customer Service"
+2996,2996,167,Food was cold,Negative,2025-02-22 21:00:00,food cold,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Neutral,Food Quality
+2999,2999,289,Very disappointing experience,Negative,2025-03-13 21:00:00,disappointing experience,"{'neg': 0.636, 'neu': 0.364, 'pos': 0.0, 'compound': -0.5413}",-0.5413,Negative,Other

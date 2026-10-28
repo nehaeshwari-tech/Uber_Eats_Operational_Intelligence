@@ -1,0 +1,8 @@
+Feature,Importance
+num__distance_km,0.797208525263639
+cat__traffic_High,0.038745663693162465
+cat__traffic_Medium,0.03861685256806192
+cat__traffic_Low,0.037078170089739744
+cat__weather_Clear,0.031901525445781606
+cat__weather_Rainy,0.030562368976103992
+cat__weather_Cloudy,0.02588689396351126

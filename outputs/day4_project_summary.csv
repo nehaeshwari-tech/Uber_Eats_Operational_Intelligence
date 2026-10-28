@@ -1,0 +1,9 @@
+Task,Result
+Dataset Loading,Loaded 3000 delivery records
+Data Quality Check,No missing values or duplicate rows
+Feature Engineering,"Used distance_km, weather and traffic"
+Model Training,"Trained Linear Regression, Random Forest and Gradient Boosting"
+Model Evaluation,"Compared MAE, RMSE and R2 Score"
+Best Baseline Model,Linear Regression
+Key Finding,Distance correlation with delivery time is -0.02
+Limitation,Current features provide weak predictive performance

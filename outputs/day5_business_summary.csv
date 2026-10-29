@@ -1,0 +1,2 @@
+average_orders_per_hour,peak_hour_of_day,average_orders_at_peak_hour,quietest_hour_of_day,average_orders_at_quietest_hour,best_model_by_test_MAE,test_MAE,test_RMSE,test_MAPE_percent_nonzero_actuals
+0.34,02:00,0.4,06:00,0.28,Naive baseline,0.34,0.67,100.0

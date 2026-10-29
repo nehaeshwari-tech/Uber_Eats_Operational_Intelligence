@@ -1,0 +1,3 @@
+series,ADF statistic,p-value,stationary at 5%
+Original series,-93.3828306422151,0.0,True
+First difference,-25.91297000397772,0.0,True

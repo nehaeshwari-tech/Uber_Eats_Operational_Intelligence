@@ -1,308 +1,572 @@
-Uber Eats Operational & Customer Intelligence System
-Project Overview
-This project uses data analytics and machine learning to analyze customer behaviour, restaurant performance, delivery operations, customer sentiment, and order demand.
-Contents
-- Project Overview
-- Objectives
-- Technology Stack
-- Project Structure
-- Project Status
-- Day 2: Customer and Restaurant Segmentation
-- Day 3: Customer Feedback Analysis Using NLP
-- Day 4: Delivery Time Prediction Using Regression
-Objectives
-- Segment customers and restaurants.
-- Analyze customer reviews using Natural Language Processing (NLP).
-- Predict delivery time or tip amount using regression models.
-- Forecast hourly order demand.
-- Generate actionable business insights and recommendations.
-Technology Stack
-- Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
-- Scikit-learn
-- NLP tools
-- Time-series forecasting libraries
-Project Structure
-- data/raw/: Original synthetic datasets
-- data/processed/: Cleaned datasets
-- notebooks/: Exploratory data analysis and experiments
-- src/: Python scripts and machine learning pipelines
-- outputs/visualizations/: Generated charts
-- docs/: Project documentation
-Project Status
-- Day 1: Project setup and synthetic data generation.
-- Day 2: Customer and restaurant segmentation using K-Means and DBSCAN.
-- Day 3: Customer feedback analysis using NLP and sentiment classification.
-- Day 4: Delivery-time prediction using regression models.
-Day 2: Customer and Restaurant Segmentation
-Overview
-This phase of the Uber Eats Operational Intelligence project uses clustering techniques to identify customer ordering patterns and restaurant performance groups.
-Methodology
-- Feature Preparation: Selected relevant numerical features for customer and restaurant segmentation.
-- Data Scaling: Standardized numerical features using StandardScaler.
-- K-Means Clustering: Used the Elbow Method and Silhouette Score to evaluate suitable cluster counts.
-- DBSCAN Clustering: Compared parameter combinations to identify density-based clusters and potential outliers.
-- PCA Visualization: Reduced the feature dimensions to two principal components for visualization.
-- Cluster Profiling: Summarized customer behaviour and restaurant performance for interpretation.
-Business Insights and Recommendations
-Customer Segmentation
-Customer clusters can reveal differences in ordering frequency, spending patterns, weekend activity, and late-night orders. These insights can help inform targeted promotions, loyalty programmes, and customer-retention strategies.
-Restaurant Segmentation
-Restaurant clusters can reveal differences in revenue, order volume, ratings, cancellation rates, preparation times, and delivery times. These insights can help identify opportunities to improve restaurant operations.
-Model Comparison
-K-Means groups records into a predefined number of clusters, while DBSCAN identifies density-based groups and potential outliers. Comparing both approaches helps explore different patterns in customer behaviour and restaurant performance.
-Recommendations
-- Develop targeted promotions based on customer ordering and spending behaviour.
-- Investigate restaurants with relatively high cancellation rates or long preparation times.
-- Use restaurant ratings and order performance to identify operational improvement opportunities.
-- Validate recommendations using the actual cluster profiles before implementation.
-Output Files
-The processed segmentation datasets are saved in data/processed/:
-- customer_segments.csv — Customer features with K-Means and DBSCAN cluster labels.
-- restaurant_segments.csv — Restaurant features with K-Means and DBSCAN cluster labels.
-Day 3: Customer Feedback Analysis Using NLP
-1. Objective
-The objective of Day 3 was to analyze customer reviews using Natural Language Processing (NLP) techniques, classify customer sentiment, compare machine learning models, and identify common customer complaints. The analysis helps understand customer satisfaction and identify areas where Uber Eats' delivery and restaurant services can improve.
-2. Dataset Overview
-The customer review dataset was loaded and examined to understand its structure and quality.
-- Total records: 3,000
-- Total columns: 6
-- Columns: review_id, order_id, customer_id, review_text, sentiment, review_date
-The dataset contains customer review text, sentiment labels, order and customer identifiers, and review dates.
-3. Data Quality Assessment
+# Uber Eats Operational & Customer Intelligence System
+
+## Project Overview
+
+The **Uber Eats Operational & Customer Intelligence System** is a data analytics and machine learning capstone project focused on understanding customer behaviour, restaurant performance, delivery operations, customer sentiment, and hourly order demand.
+
+The project covers data preparation, exploratory data analysis (EDA), customer and restaurant segmentation, Natural Language Processing (NLP), regression modeling, and time-series forecasting. The objective is to transform available data into actionable business insights that can support customer satisfaction, operational efficiency, and resource optimization.
+
+## Project Objectives
+
+- Segment customers based on ordering frequency, spending, and behavioural patterns.
+- Segment restaurants based on revenue, order volume, ratings, and operational performance.
+- Analyze customer reviews using NLP and sentiment classification.
+- Identify recurring customer complaints and potential service improvement areas.
+- Predict delivery time using regression models.
+- Forecast hourly order demand using time-series forecasting techniques.
+- Evaluate machine learning models using appropriate performance metrics.
+- Generate visualizations and business recommendations from analytical findings.
+
+## Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Data Processing | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| NLP and Sentiment Analysis | TF-IDF, NLTK, VADER |
+| Classification Models | Multinomial Naive Bayes, Linear SVM |
+| Clustering Algorithms | K-Means, DBSCAN |
+| Regression Models | Linear Regression, Ridge, Lasso, Random Forest, Gradient Boosting |
+| Time-Series Forecasting | ARIMA, Prophet |
+| Development Environment | Jupyter Notebook, VS Code |
+| Version Control | Git, GitHub |
+
+## Project Structure
+
+```text
+Uber_Eats_Operational_Intelligence/
+├── data/
+│   ├── raw/                       # Original datasets
+│   └── processed/                 # Cleaned and transformed datasets
+├── notebooks/                    # Daily analysis and modeling notebooks
+├── src/                           # Reusable scripts and pipelines, where applicable
+├── models/                        # Saved trained models and preprocessors
+├── outputs/
+│   └── visualizations/            # Generated charts and plots
+├── docs/                          # Project documentation
+└── README.md
+```
+
+*The exact files and folders may vary depending on the outputs generated by each notebook.*
+
+## Project Status
+
+- **Day 1:** Project setup and synthetic data generation.
+- **Day 2:** Customer and restaurant segmentation using K-Means and DBSCAN.
+- **Day 3:** Customer feedback analysis using NLP and sentiment classification.
+- **Day 4:** Delivery-time prediction using regression models.
+- **Day 5:** Hourly order-demand analysis and time-series forecasting using ARIMA and Prophet.
+
+---
+
+# Day 1 – Project Setup and Synthetic Data Generation
+
+## Objective
+
+Set up the capstone project environment and prepare the initial datasets required for subsequent data analysis and machine learning tasks.
+
+## Tasks Completed
+
+- Set up the project workspace.
+- Organized the initial project folder structure.
+- Generated synthetic datasets for the project workflow.
+- Prepared the foundation for customer analytics, restaurant segmentation, delivery-time prediction, sentiment analysis, and demand forecasting.
+
+## Deliverables
+
+- Project workspace and folder structure.
+- Initial synthetic datasets stored in the appropriate data folders.
+- Foundation for the subsequent analytical and machine learning workflows.
+
+## Outcome
+
+Day 1 established the project structure and initial datasets needed to carry out the remaining capstone tasks.
+
+---
+
+# Day 2 – Customer and Restaurant Segmentation
+
+## Objective
+
+Identify groups of customers and restaurants with similar behavioural and operational characteristics using clustering algorithms.
+
+## 1. Feature Preparation and Data Preprocessing
+
+Selected relevant numerical features for customer and restaurant segmentation.
+
+### Customer Features
+
+The customer segmentation workflow included features such as:
+
+- `total_orders`
+- `ordering_frequency`
+- `weekend_orders`
+- `late_night_orders`
+- `total_spending`
+- `avg_order_value`
+- `avg_rating_given`
+
+These features were used to explore customer ordering behaviour, spending patterns, and engagement.
+
+### Restaurant Features
+
+The restaurant segmentation workflow included available features such as:
+
+- `restaurant_id`
+- `restaurant_name`
+- `cuisine`
+- `rating`
+- `avg_prep_time_minutes`
+- `total_orders`
+- `cancelled_orders`
+- `cancellation_rate`
+- `total_revenue`
+- `avg_delivery_time`
+
+The selected numerical features were prepared for clustering, and `StandardScaler` was used to standardize features where appropriate.
+
+## 2. K-Means Clustering
+
+K-Means was applied to group customers and restaurants based on their selected features.
+
+The following activities were completed:
+
+- Used the Elbow Method to examine suitable cluster counts.
+- Calculated Silhouette Scores to assess cluster separation.
+- Applied K-Means clustering to customer and restaurant data.
+- Examined cluster profiles to understand the characteristics of the resulting groups.
+
+## 3. DBSCAN Clustering
+
+DBSCAN was applied to identify density-based groups and potential outliers.
+
+The results were compared with K-Means to understand how the two algorithms identify different patterns in the data.
+
+## 4. PCA Visualization
+
+Principal Component Analysis (PCA) was used to reduce the feature dimensions to two principal components for visualization.
+
+The generated plots helped inspect the distribution and separation of customer and restaurant clusters.
+
+## 5. Business Insights and Recommendations
+
+### Customer Segmentation
+
+Customer clusters can reveal differences in:
+
+- Ordering frequency.
+- Total spending and average order value.
+- Weekend ordering behaviour.
+- Late-night ordering patterns.
+- Customer ratings and engagement.
+
+These insights can help inform customer-retention strategies, targeted promotions, and loyalty programmes.
+
+### Restaurant Segmentation
+
+Restaurant clusters can reveal differences in:
+
+- Revenue and total order volume.
+- Restaurant ratings.
+- Cancellation rates.
+- Average preparation time.
+- Average delivery time.
+
+These insights can help identify restaurants that may benefit from operational support or improvements.
+
+### Recommendations
+
+- Develop targeted promotions based on observed customer segments.
+- Investigate restaurants with comparatively high cancellation rates.
+- Review restaurants with longer preparation times.
+- Use ratings, revenue, and order performance to identify operational improvement opportunities.
+- Validate recommendations against actual cluster profiles before implementation.
+
+K-Means groups observations into a predefined number of clusters, whereas DBSCAN identifies dense groups and can classify some observations as noise. Comparing the methods provides different perspectives on customer and restaurant behaviour.
+
+## Deliverables and Output Files
+
+- Customer and restaurant feature preparation.
+- K-Means clustering and cluster profiling.
+- DBSCAN clustering and outlier identification.
+- Elbow and Silhouette Score analysis.
+- PCA cluster visualizations.
+- Business insights and recommendations.
+
+### Generated Files
+
+- `data/processed/customer_segments.csv` — customer features and cluster labels.
+- `data/processed/restaurant_segments.csv` — restaurant features and cluster labels.
+- Customer and restaurant clustering visualizations.
+- Cluster profiles and business interpretations.
+
+## Conclusion
+
+Day 2 focused on understanding customer behaviour and restaurant performance through unsupervised learning. K-Means and DBSCAN provided complementary ways to explore groups and potential outliers, while PCA visualizations and cluster profiles supported interpretation of the results.
+
+---
+
+# Day 3 – Customer Feedback Analysis Using NLP
+
+## Objective
+
+Analyze customer reviews using Natural Language Processing, classify sentiment, compare machine learning models, and identify common customer complaints.
+
+The analysis aims to understand customer satisfaction and highlight potential opportunities to improve restaurant and delivery services.
+
+## 1. Dataset Overview
+
+The customer review dataset contained **3,000 records and 6 columns**.
+
+| Column | Description |
+|---|---|
+| `review_id` | Unique review identifier |
+| `order_id` | Associated order identifier |
+| `customer_id` | Customer identifier |
+| `review_text` | Text of the customer review |
+| `sentiment` | Sentiment label |
+| `review_date` | Date of the review |
+
+## 2. Data Quality Assessment
+
 The dataset was checked for missing values, duplicate records, duplicate review IDs, and empty review text.
-Data Quality Results
-- Missing values: 0 across all columns.
-- Duplicate rows: 0.
-- Duplicate review IDs: 0.
-- Empty or whitespace-only reviews: 0.
+
+| Data Quality Check | Result |
+|---|---:|
+| Missing values | 0 across all columns |
+| Duplicate rows | 0 |
+| Duplicate review IDs | 0 |
+| Empty or whitespace-only reviews | 0 |
+
 These checks confirmed that the dataset did not contain the identified data quality issues.
-4. Sentiment Distribution Analysis
+
+## 3. Sentiment Distribution Analysis
+
 The distribution of sentiment labels was analyzed to understand the overall pattern of customer feedback.
-Sentiment	Number of Reviews	Percentage
-Positive	1,766	58.87%
-Negative	779	25.97%
-Neutral	455	15.17%
-Total	3,000	100% approximately
 
+| Sentiment | Number of Reviews | Percentage |
+|---|---:|---:|
+| Positive | 1,766 | 58.87% |
+| Negative | 779 | 25.97% |
+| Neutral | 455 | 15.17% |
+| **Total** | **3,000** | **Approximately 100%** |
 
-Key Observations
-- Positive reviews account for the largest share of customer feedback.
-- Approximately one-quarter of the reviews are negative, indicating opportunities to improve the customer experience.
-- Neutral reviews provide additional feedback that may help identify areas requiring attention.
-5. Text Preprocessing
-The review text was cleaned and normalized before applying machine learning techniques.
+### Key Observations
+
+- Positive reviews represented the largest share of customer feedback.
+- Approximately one-quarter of the reviews were negative, indicating potential opportunities to improve customer experience.
+- Neutral reviews provided additional feedback that could help identify areas requiring attention.
+
+## 4. Text Preprocessing
+
+The review text was cleaned and normalized before feature extraction.
 
 The preprocessing steps included:
+
 1. Converting text to lowercase.
 2. Removing URLs.
 3. Removing punctuation and non-alphabetic characters.
-4. Tokenizing the text into individual words.
-5. Removing English stopwords while retaining important negation words such as no, nor, and not.
+4. Tokenizing text into individual words.
+5. Removing English stopwords while retaining important negation words such as `no`, `nor`, and `not`.
 6. Removing very short tokens.
-7. Applying lemmatization to normalize words.
+7. Applying lemmatization.
 8. Combining the cleaned tokens into processed review text.
-The processed text was stored in a new column named processed_review.
 
-The cleaned dataset was saved as:
+The processed text was stored in a new column named `processed_review`.
 
-data/processed/cleaned_reviews.csv
-6. Feature Extraction Using TF-IDF
-Term Frequency–Inverse Document Frequency (TF-IDF) was used to convert the processed review text into numerical features suitable for machine learning.
-Configuration
-- Technique: TF-IDF Vectorization
-- Maximum features: 3,000
-- N-gram range: (1, 2), including individual words and two-word combinations
-- Number of reviews: 3,000
-- Number of extracted features: 54
-- TF-IDF matrix shape: (3000, 54)
-The extracted features included terms and phrases such as acceptable, amazing, amazing experience, arrived, and arrived late.
-Saved Artifacts
-- data/processed/reviews_tfidf.npz
-- data/processed/tfidf_vectorizer.pkl
-7. Sentiment Classification Using Machine Learning
-Two machine learning models were trained to classify customer reviews into Positive, Negative, and Neutral categories.
-Models Used
-1. Multinomial Naive Bayes
+### Output File
 
-Multinomial Naive Bayes is a probabilistic classification algorithm commonly used for text classification tasks. It estimates the probability of a sentiment class based on the observed text features.
+- `data/processed/cleaned_reviews.csv`
 
-2. Linear Support Vector Machine (Linear SVM)
+## 5. Feature Extraction Using TF-IDF
 
-Linear SVM identifies a decision boundary that separates sentiment classes in the feature space. It is commonly used for high-dimensional text classification problems.
-Training and Testing
-- Train-test split: 80:20
-- Training samples: 2,400
-- Testing samples: 600
-- Random state: 42
-- Stratification: Applied to preserve the distribution of sentiment classes.
-Evaluation Metrics
+Term Frequency–Inverse Document Frequency (TF-IDF) was used to convert review text into numerical features suitable for machine learning.
+
+### Configuration and Results
+
+| Parameter | Value |
+|---|---|
+| Technique | TF-IDF Vectorization |
+| Maximum feature setting | 3,000 |
+| N-gram range | (1, 2) |
+| Reviews processed | 3,000 |
+| Extracted features | 54 |
+| TF-IDF matrix shape | `(3000, 54)` |
+
+The extracted features included terms and phrases such as `acceptable`, `amazing`, `amazing experience`, `arrived`, and `arrived late`.
+
+### Saved Artifacts
+
+- `data/processed/reviews_tfidf.npz`
+- `data/processed/tfidf_vectorizer.pkl`
+
+## 6. Sentiment Classification Using Machine Learning
+
+Two supervised machine learning models were trained to classify customer reviews into Positive, Negative, and Neutral categories.
+
+### Models Used
+
+**Multinomial Naive Bayes**
+
+A probabilistic classification algorithm commonly used for text classification tasks.
+
+**Linear Support Vector Machine (SVM)**
+
+A linear classification algorithm suited to high-dimensional text features.
+
+### Training and Testing
+
+| Parameter | Value |
+|---|---|
+| Train-test split | 80:20 |
+| Training samples | 2,400 |
+| Testing samples | 600 |
+| Random state | 42 |
+| Stratification | Applied |
+
+### Evaluation Metrics
+
 The models were evaluated using:
-- Accuracy
-- Weighted Precision
-- Weighted Recall
-- Weighted F1-score
-Model Evaluation Results
-Model	Accuracy	Weighted Precision	Weighted Recall	Weighted F1-score
-Multinomial Naive Bayes	1.00	1.00	1.00	1.00
-Linear SVM	1.00	1.00	1.00	1.00
 
+- Accuracy.
+- Weighted precision.
+- Weighted recall.
+- Weighted F1-score.
 
-Both models achieved 100% on the reported evaluation metrics for the current test split.
+### Model Evaluation Results
 
-Important observation: These perfect scores are unusually high for a real-world sentiment classification task. The results should be validated further by checking repeated review text, potential overlap between similar reviews in the training and testing sets, and performance on genuinely unseen reviews. The reported scores should not be treated as proof of generalization until these checks are completed.
-Saved Artifacts
-- data/processed/model_evaluation_report.csv
-- data/processed/naive_bayes_sentiment_model.pkl
-- data/processed/svm_sentiment_model.pkl
-8. Confusion Matrix Visualization
+| Model | Accuracy | Weighted Precision | Weighted Recall | Weighted F1-Score |
+|---|---:|---:|---:|---:|
+| Multinomial Naive Bayes | 1.00 | 1.00 | 1.00 | 1.00 |
+| Linear SVM | 1.00 | 1.00 | 1.00 | 1.00 |
+
+Both models achieved 100% on the reported test split.
+
+**Important observation:** These perfect scores are unusually high for a real-world sentiment classification task. They should be validated by checking for duplicate or highly repetitive reviews, potential overlap between similar reviews in the training and testing sets, and performance on genuinely unseen reviews. The reported scores should not be treated as proof of generalization until these checks are completed.
+
+### Saved Artifacts
+
+- `data/processed/model_evaluation_report.csv`
+- `data/processed/naive_bayes_sentiment_model.pkl`
+- `data/processed/svm_sentiment_model.pkl`
+- `outputs/visualizations/naive_bayes_confusion_matrix.png`
+- `outputs/visualizations/svm_confusion_matrix.png`
+
+## 7. Confusion Matrix Visualization
+
 Confusion matrices were generated for both trained models to compare actual sentiment labels with predicted labels.
 
-The visualizations were saved as:
-- outputs/visualizations/naive_bayes_confusion_matrix.png
-- outputs/visualizations/svm_confusion_matrix.png
-These plots help inspect classification performance across the three sentiment categories.
-9. Sentiment Analysis Using VADER
+The visualizations help inspect classification performance across Positive, Negative, and Neutral categories.
+
+## 8. Sentiment Analysis Using VADER
+
 VADER (Valence Aware Dictionary and sEntiment Reasoner) was applied to the original customer review text as a lexicon-based sentiment analysis approach.
 
 The analysis involved:
+
 1. Initializing the VADER sentiment analyzer.
 2. Calculating sentiment scores for customer reviews.
 3. Extracting the compound sentiment score.
 4. Assigning sentiment labels based on compound score thresholds.
-The classification rules used were:
-- Compound score ≥ 0.05: Positive
-- Compound score ≤ -0.05: Negative
-- Compound score between -0.05 and 0.05: Neutral
-VADER provides a rule-based approach that can be compared with the machine learning predictions. Its evaluation metrics should be documented separately if calculated.
-10. Customer Complaint Analysis
+
+### Classification Rules
+
+- Compound score `>= 0.05`: Positive.
+- Compound score `<= -0.05`: Negative.
+- Compound score between `-0.05` and `0.05`: Neutral.
+
+VADER provides a rule-based approach that can be compared with the machine learning predictions.
+
+## 9. Customer Complaint Analysis
+
 Negative reviews were analyzed to identify frequently occurring complaint-related words and common problem areas.
-10.1 Most Frequent Complaint Words
-The processed text of negative reviews was analyzed using word-frequency counts. The 15 most frequent tokens were identified and visualized to highlight recurring complaint-related terms.
 
-The visualization was saved as:
+### Most Frequent Complaint Words
 
-outputs/visualizations/top_customer_complaint_words.png
-10.2 Complaint Category Classification
+Word-frequency counts were calculated from processed negative reviews. The most frequent complaint-related terms were visualized to highlight recurring issues.
+
+**Visualization:**
+
+- `outputs/visualizations/top_customer_complaint_words.png`
+
+### Complaint Category Classification
+
 Negative reviews were assigned complaint categories using keyword-based rules.
 
 The categories included:
-- Late Delivery: Complaints related to delays, waiting, and delivery time.
-- Incorrect or Missing Order: Complaints about incorrect orders, missing items, or wrong deliveries.
-- Food Quality: Complaints involving cold food, stale food, taste, or food quality.
-- Packaging Issues: Complaints about damaged packaging, spills, and leaks.
-- Customer Service: Complaints involving service, support, staff, or responses.
-- High Prices: Complaints about expensive items, costs, and overpriced orders.
-- Other: Reviews that did not match the defined complaint categories.
+
+- Late Delivery.
+- Incorrect or Missing Order.
+- Food Quality.
+- Packaging Issues.
+- Customer Service.
+- High Prices.
+- Other.
+
 A review may match multiple categories because the classification uses keyword matching. Consequently, the sum of category counts may exceed the total number of negative reviews.
-10.3 Complaint Category Visualization
-The distribution of complaint categories was visualized to make recurring service issues easier to identify.
 
-The visualization was saved as:
+### Complaint Analysis Outputs
 
-outputs/visualizations/customer_complaint_categories.png
-10.4 Saved Complaint Analysis Outputs
-- data/processed/reviews_with_sentiment_analysis.csv
-- data/processed/categorized_customer_complaints.csv
-- data/processed/complaint_category_summary.csv
-- data/processed/sentiment_summary.csv
-11. Business Insights and Recommendations
+- `data/processed/reviews_with_sentiment_analysis.csv`
+- `data/processed/categorized_customer_complaints.csv`
+- `data/processed/complaint_category_summary.csv`
+- `data/processed/sentiment_summary.csv`
+- `outputs/visualizations/customer_complaint_categories.png`
+
+## 10. Business Insights and Recommendations
+
 The sentiment and complaint analysis can help identify opportunities to improve customer satisfaction.
-1. Monitor delivery performance: Investigate recurring complaints involving late deliveries and waiting times.
-2. Improve order accuracy: Review order preparation and verification processes if incorrect or missing items are frequently mentioned.
-3. Maintain food quality: Work with restaurant partners to improve food preparation, packaging, and delivery practices.
-4. Strengthen packaging standards: Investigate reports of spills, leaks, and damaged packaging.
-5. Improve customer support: Review recurring complaints involving service quality and response times.
-6. Monitor pricing concerns: Examine customer feedback about perceived high prices and value for money.
-7. Track sentiment over time: Monitor positive, neutral, and negative feedback periodically to identify changes in customer satisfaction.
-These recommendations are potential actions based on the analysis approach. Specific priorities should be selected after reviewing the actual complaint-category counts and representative reviews.
-12. Limitations
+
+1. **Monitor delivery performance:** Investigate recurring complaints involving late deliveries and waiting times.
+2. **Improve order accuracy:** Review order preparation and verification processes if incorrect or missing items are frequently mentioned.
+3. **Maintain food quality:** Work with restaurant partners to improve food preparation, packaging, and delivery practices.
+4. **Strengthen packaging standards:** Investigate reports of spills, leaks, and damaged packaging.
+5. **Improve customer support:** Review recurring complaints involving service quality and response times.
+6. **Monitor pricing concerns:** Examine customer feedback about perceived high prices and value for money.
+7. **Track sentiment over time:** Monitor positive, neutral, and negative feedback periodically to identify changes in customer satisfaction.
+
+Specific priorities should be selected after reviewing the actual complaint-category counts and representative reviews.
+
+## 11. Limitations
+
 - Keyword-based complaint categorization may misclassify reviews when words are used in different contexts.
 - A single review may belong to multiple complaint categories.
 - TF-IDF represents text using weighted terms and does not fully capture context, sarcasm, or complex language.
-- VADER uses a predefined sentiment lexicon and may not interpret every customer review correctly.
-- The 100% scores achieved by both machine learning models require further validation for possible duplicate or highly repetitive text patterns.
+- VADER uses a predefined sentiment lexicon and may not interpret every review correctly.
+- The 100% classification scores require further validation for duplicate or highly repetitive text patterns.
 - Additional testing on unseen reviews is required before deploying the models in a production environment.
-13. Conclusion
-Day 3 focused on understanding customer feedback through NLP and sentiment analysis. The workflow covered data quality checks, text preprocessing, TF-IDF feature extraction, supervised sentiment classification, model evaluation, VADER sentiment scoring, and complaint analysis.
 
-The results provide a foundation for identifying recurring customer concerns and developing data-driven service improvement strategies. Further validation of the unusually high classification scores is recommended before drawing conclusions about model performance on unseen data.
-Day 4: Delivery Time Prediction Using Regression
-1. Objective
-The objective of Day 4 was to build and evaluate supervised machine learning regression models to predict food delivery time using delivery distance, weather conditions, and traffic levels.
-2. Dataset Overview
-The delivery dataset contains 3,000 records and the following columns:
-- delivery_id: Unique delivery identifier.
-- order_id: Order identifier.
-- driver_id: Delivery driver identifier.
-- distance_km: Delivery distance in kilometers.
-- delivery_time_minutes: Actual delivery duration in minutes; this is the target variable.
-- weather: Weather condition during delivery.
-- traffic: Traffic level during delivery.
+## Conclusion
+
+Day 3 covered data quality checks, text preprocessing, TF-IDF feature extraction, supervised sentiment classification, model evaluation, VADER sentiment scoring, and complaint analysis.
+
+The results provide a foundation for identifying recurring customer concerns and developing data-driven service improvement strategies. Further validation of the unusually high classification scores is recommended before drawing conclusions about performance on unseen data.
+
+---
+
+# Day 4 – Delivery Time Prediction Using Regression
+
+## Objective
+
+Build and evaluate supervised machine learning regression models to predict food delivery time using delivery distance, weather conditions, and traffic levels.
+
+The analysis aims to assess whether the available delivery features can explain delivery-time variation and support operational planning.
+
+## 1. Dataset Overview
+
+The delivery dataset contained **3,000 records** and the following columns:
+
+| Column | Description |
+|---|---|
+| `delivery_id` | Unique delivery identifier |
+| `order_id` | Order identifier |
+| `driver_id` | Delivery driver identifier |
+| `distance_km` | Delivery distance in kilometers |
+| `delivery_time_minutes` | Actual delivery duration in minutes; target variable |
+| `weather` | Weather condition during delivery |
+| `traffic` | Traffic level during delivery |
+
 The dataset was checked for missing values and duplicate records. No missing values or duplicate rows were identified.
-3. Exploratory Data Analysis (EDA)
+
+## 2. Exploratory Data Analysis
+
 The following analyses were performed:
+
 - Examined the distribution of delivery times using a histogram.
 - Analyzed the relationship between delivery distance and delivery time using a scatter plot.
 - Compared delivery times across weather and traffic categories using box plots.
 - Examined correlations between numerical variables and the target.
 - Checked for potential outliers using the Interquartile Range (IQR) method.
-The correlation between delivery distance and delivery time was approximately -0.02. Average delivery times also showed relatively small differences across the available weather and traffic categories. These findings suggest that the available features may not adequately explain delivery-time variation.
-4. Feature Engineering and Preprocessing
+
+The correlation between delivery distance and delivery time was approximately **-0.02**. Average delivery times also showed relatively small differences across the available weather and traffic categories.
+
+These findings suggest that the available features may not adequately explain delivery-time variation.
+
+## 3. Feature Engineering and Preprocessing
+
 The following preprocessing steps were implemented:
-- Selected distance_km, weather, and traffic as input features.
-- Selected delivery_time_minutes as the target variable.
+
+- Selected `distance_km`, `weather`, and `traffic` as input features.
+- Selected `delivery_time_minutes` as the target variable.
 - Used median imputation for the numerical feature.
 - Applied one-hot encoding to categorical features.
 - Split the data into training and testing sets using an 80:20 ratio.
-- Used a ColumnTransformer to organize preprocessing.
-The feature-engineered dataset was exported to:
+- Used a `ColumnTransformer` to organize preprocessing.
 
-outputs/day4_feature_engineered_dataset.csv
-5. Regression Models
-The following regression approaches were evaluated:
-1. Linear Regression — baseline model.
-2. Ridge Regression — regularized linear regression.
-3. Lasso Regression — regularized regression with feature selection capability.
-4. Random Forest Regressor — ensemble tree-based model.
-5. Gradient Boosting Regressor — boosting-based ensemble model.
-Model performance was evaluated using the same training and testing split for a fair comparison.
-6. Model Evaluation
-The following evaluation metrics were used:
-- Mean Absolute Error (MAE): Measures the average absolute difference between actual and predicted delivery times.
-- Root Mean Squared Error (RMSE): Penalizes larger prediction errors more heavily.
-- R-squared (R²): Measures how much variation in delivery time is explained by the model relative to a mean-based baseline.
-Initial evaluation results included:
-Model	MAE	RMSE	R²
-Linear Regression	20.48	23.67	0.0007
-Gradient Boosting	20.79	24.11	-0.0366
-Random Forest	22.29	26.84	-0.2841
+### Output File
 
+- `outputs/day4_feature_engineered_dataset.csv`
 
-Ridge Regression and Lasso Regression were also evaluated, and the results were included in the model comparison output.
+## 4. Regression Models
 
-The initial results indicate that Linear Regression performed best among the three models listed above. However, its R² value was close to zero, indicating that the model explained very little variation in delivery time. The negative R² values for Gradient Boosting and Random Forest indicate that these models performed worse than a simple mean-based prediction baseline on the test set.
+The following regression approaches were evaluated using the same training and testing split:
 
-Important: The initial results demonstrate that the available features have limited predictive power. The results should be reported transparently rather than presenting the models as highly accurate.
-7. Cross-Validation and Model Comparison
-Five-fold cross-validation was performed on the training data using MAE as the scoring metric. This helped assess model performance across multiple data splits rather than relying exclusively on one test split.
+1. Linear Regression.
+2. Ridge Regression.
+3. Lasso Regression.
+4. Random Forest Regressor.
+5. Gradient Boosting Regressor.
+
+## 5. Model Evaluation
+
+The models were evaluated using the following metrics:
+
+- **Mean Absolute Error (MAE):** Measures the average absolute difference between actual and predicted delivery times.
+- **Root Mean Squared Error (RMSE):** Penalizes larger prediction errors more heavily.
+- **R-squared (R²):** Measures how much variation in delivery time is explained by the model relative to a mean-based baseline.
+
+### Initial Reported Results
+
+| Model | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Linear Regression | 20.48 | 23.67 | 0.0007 |
+| Gradient Boosting | 20.79 | 24.11 | -0.0366 |
+| Random Forest | 22.29 | 26.84 | -0.2841 |
+
+Ridge Regression and Lasso Regression were also evaluated, with their results included in the model comparison output.
+
+Among the three models listed above, Linear Regression had the lowest MAE and RMSE. However, its R² value was close to zero, indicating that it explained very little variation in delivery time.
+
+The negative R² values for Gradient Boosting and Random Forest indicate that these models performed worse than a mean-based prediction baseline on the test set.
+
+The results demonstrate that the available features have limited predictive power. Model performance should be reported transparently rather than presenting the predictions as highly accurate.
+
+## 6. Cross-Validation and Model Comparison
+
+Five-fold cross-validation was performed on the training data using MAE as the scoring metric.
+
+This helped assess model performance across multiple data splits rather than relying exclusively on one test split.
 
 The model comparison and cross-validation results were exported for further analysis.
-8. Feature Importance and Prediction Analysis
+
+## 7. Feature Importance and Prediction Analysis
+
 Feature importance was examined for the tree-based models to understand how the input features contributed to predictions.
 
-Actual-versus-predicted visualizations and prediction error analysis were used to examine the differences between actual delivery times and model predictions.
+Actual-versus-predicted visualizations and prediction-error analysis were used to examine the differences between actual delivery times and model predictions.
 
 The findings suggest that additional explanatory variables may be required to improve prediction performance.
-9. Business Interpretation
-Accurate delivery-time predictions can help food delivery platforms improve estimated arrival times, customer communication, driver allocation, and operational planning.
+
+## 8. Business Interpretation
+
+Accurate delivery-time predictions can help food delivery platforms improve:
+
+- Estimated arrival times.
+- Customer communication.
+- Driver allocation.
+- Delivery operations.
+- Operational planning.
 
 However, the current models have limited predictive performance. The available dataset includes only distance, weather, and traffic as input features, which may not capture important factors such as restaurant preparation time, driver availability, order volume, pickup delays, and location-specific conditions.
 
 Including these additional variables, where available, may improve future model performance.
-10. Deliverables
+
+## 9. Deliverables and Output Files
+
 The following Day 4 deliverables were prepared:
+
 - Exploratory data analysis and visualizations.
 - Feature-engineered dataset.
 - Training and testing data split.
@@ -311,19 +575,262 @@ The following Day 4 deliverables were prepared:
 - Five-fold cross-validation results.
 - Model comparison report.
 - Feature importance analysis.
-- Actual-versus-predicted and prediction error analysis.
+- Actual-versus-predicted and prediction-error analysis.
 - Saved model and preprocessing artifacts.
 - Final model recommendation and business interpretation.
-11. Output Files
-The main output files include:
-- outputs/day4_feature_engineered_dataset.csv
-- outputs/day4_model_comparison.csv
-- outputs/day4_cross_validation_results.csv
-- outputs/day4_feature_importance.csv
-- outputs/day4_final_recommendation.csv
-- outputs/day4_project_summary.csv
-- models/day4_best_delivery_time_model.pkl
-- models/day4_delivery_time_preprocessor.pkl
+
+### Main Output Files
+
+- `outputs/day4_feature_engineered_dataset.csv`
+- `outputs/day4_model_comparison.csv`
+- `outputs/day4_cross_validation_results.csv`
+- `outputs/day4_feature_importance.csv`
+- `outputs/day4_final_recommendation.csv`
+- `outputs/day4_project_summary.csv`
+- `models/day4_best_delivery_time_model.pkl`
+- `models/day4_delivery_time_preprocessor.pkl`
+
 Additional visualization files may be available in the outputs directory.
-12. Conclusion
-Day 4 covered the complete regression modeling workflow, from exploratory analysis and preprocessing to model training, evaluation, cross-validation, and model comparison.
+
+## Conclusion
+
+Day 4 covered the regression workflow from exploratory analysis and preprocessing to model training, evaluation, cross-validation, feature-importance analysis, and prediction-error review.
+
+The results indicate that additional explanatory features are needed to improve delivery-time prediction. The current findings provide a foundation for further model development and operational analysis.
+
+---
+
+# Day 5 – Hourly Demand Forecasting
+
+## Objective
+
+Analyze historical order demand and forecast future hourly order volumes using time-series forecasting techniques.
+
+The analysis aims to identify demand patterns and support short-term operational planning, delivery-partner allocation, and resource optimization.
+
+## 1. Data Preparation and Hourly Demand Aggregation
+
+The order dataset was prepared for time-series analysis.
+
+The following tasks were completed:
+
+- Loaded and cleaned the order dataset.
+- Converted order timestamps into the appropriate datetime format.
+- Handled invalid timestamps and duplicate orders where applicable.
+- Aggregated order records into hourly order counts.
+- Filled missing hourly intervals with zero orders to create a continuous time series.
+- Saved the prepared hourly demand dataset.
+
+### Output Files
+
+- `data/processed/day5_cleaned_orders.csv`
+- `outputs/day5_hourly_demand.csv`
+
+## 2. Exploratory Data Analysis
+
+The hourly demand series was analyzed to understand how order volume changed over time.
+
+The following analyses were performed:
+
+- Examined hourly order demand trends.
+- Analyzed average order volume by hour of the day.
+- Compared weekday and weekend demand patterns.
+- Identified peak and quieter demand periods.
+- Generated visualizations to inspect recurring demand patterns and operational trends.
+
+These analyses help identify periods that may require different levels of delivery capacity.
+
+## 3. Time-Series Decomposition
+
+The hourly demand series was decomposed into three components:
+
+- **Trend:** Represents longer-term changes in demand.
+- **Seasonality:** Represents recurring demand patterns.
+- **Residual:** Represents variation not explained by the trend and seasonal components.
+
+The decomposition plots and component data were generated to help understand the structure of the demand series.
+
+### Output File
+
+- `outputs/day5_decomposition_components.csv`
+
+## 4. Stationarity Analysis
+
+The Augmented Dickey-Fuller (ADF) test was applied to assess the stationarity of the hourly demand series.
+
+The analysis included:
+
+- Testing the original demand series.
+- Examining the ADF test statistic and p-value.
+- Testing the first-differenced series where applicable.
+- Using the results to inform the differencing choice for ARIMA.
+
+Stationarity is important for ARIMA because the model relies on stable time-series properties. Differencing can help remove changes in the series' level or trend when required.
+
+### Output File
+
+- `outputs/day5_adf_results.csv`
+
+## 5. Chronological Train/Test Split
+
+The hourly demand series was divided into training and testing periods while preserving chronological order.
+
+Historical observations were used for training, and later observations were reserved for testing. Random shuffling was avoided to prevent future observations from being used to predict the past.
+
+### Output File
+
+- `outputs/day5_train_test_split.csv`
+
+## 6. ARIMA Forecasting
+
+An ARIMA model was developed to forecast short-term hourly order demand.
+
+The workflow included:
+
+- Using stationarity-test results to inform the differencing parameter.
+- Training the ARIMA model on historical demand observations.
+- Generating predictions for the test period.
+- Evaluating the predictions against actual demand.
+
+The model was assessed using the same chronological test period as the other forecasting approaches where applicable.
+
+## 7. Prophet Forecasting
+
+Prophet was used as an additional forecasting approach for hourly order demand.
+
+The model was configured with daily and weekly seasonality to capture recurring demand patterns.
+
+The workflow included:
+
+- Preparing the time-series data for Prophet.
+- Configuring daily and weekly seasonal patterns.
+- Training the model on historical observations.
+- Forecasting the test period.
+- Evaluating Prophet's performance against the ARIMA model.
+
+## 8. Model Evaluation and Comparison
+
+A baseline forecast was also included for comparison with the forecasting models.
+
+The models were evaluated using the following metrics:
+
+- **Mean Absolute Error (MAE):** Measures the average absolute difference between actual and predicted demand.
+- **Root Mean Squared Error (RMSE):** Measures prediction errors while assigning greater weight to larger errors.
+- **Mean Absolute Percentage Error (MAPE):** Measures the average percentage error for observations with non-zero actual demand.
+
+The model comparison results were saved for review.
+
+The best-performing model was selected based on test-set MAE and refitted on the complete available demand series before generating the final forecast.
+
+### Output File
+
+- `outputs/day5_model_comparison.csv`
+
+## 9. Final Demand Forecast
+
+The selected model was used to generate a forecast for the next 24 hours.
+
+The following outputs were prepared:
+
+- Test-period predictions.
+- Actual-versus-predicted demand visualization.
+- Final 24-hour demand forecast.
+- Final forecast visualization.
+- Business interpretation summary.
+
+### Output Files
+
+- `outputs/day5_test_predictions.csv`
+- `outputs/day5_final_demand_forecast.csv`
+- `outputs/day5_business_summary.csv`
+
+## 10. Business Interpretation
+
+Hourly demand forecasting can support operational decision-making in several ways.
+
+### Delivery-Partner Allocation
+
+Forecasted demand can help plan delivery-partner availability during anticipated busy periods.
+
+### Peak-Hour Planning
+
+Hourly demand patterns can help identify periods requiring additional operational capacity.
+
+### Resource Optimization
+
+Understanding demand fluctuations can help reduce mismatches between expected order volume and available delivery resources.
+
+### Short-Term Operational Planning
+
+Forecasts can support staffing decisions and delivery-resource planning for the upcoming hours.
+
+These are potential business applications of the analysis. Operational decisions should also consider delivery times, cancellations, location-specific demand, restaurant preparation time, and delivery-partner availability.
+
+## 11. Deliverables and Output Files
+
+The following Day 5 deliverables were generated by the notebook, subject to successful execution of the relevant cells:
+
+- Cleaned order dataset.
+- Hourly demand dataset.
+- Hourly demand trend and EDA visualizations.
+- Time-series decomposition components and plots.
+- ADF stationarity test results.
+- Chronological training and testing data.
+- ARIMA forecasting results.
+- Prophet forecasting results.
+- Model comparison table containing MAE, RMSE, and MAPE where available.
+- Actual-versus-predicted demand visualization.
+- Final 24-hour demand forecast and visualization.
+- Business interpretation summary.
+
+### Main Output Files
+
+- `data/processed/day5_cleaned_orders.csv`
+- `outputs/day5_hourly_demand.csv`
+- `outputs/day5_decomposition_components.csv`
+- `outputs/day5_adf_results.csv`
+- `outputs/day5_train_test_split.csv`
+- `outputs/day5_model_comparison.csv`
+- `outputs/day5_test_predictions.csv`
+- `outputs/day5_final_demand_forecast.csv`
+- `outputs/day5_business_summary.csv`
+- `outputs/visualizations/` — generated demand, decomposition, and forecast visualizations.
+
+## 12. Key Learnings
+
+- Preparing transaction timestamps for time-series analysis.
+- Aggregating order records into hourly demand observations.
+- Identifying trends, seasonality, and residual variation.
+- Assessing stationarity using the ADF test.
+- Applying differencing where appropriate.
+- Building and evaluating ARIMA and Prophet forecasting models.
+- Using chronological validation instead of random train/test splitting.
+- Comparing forecasting models using MAE, RMSE, and MAPE.
+- Translating demand forecasts into potential operational insights.
+
+## Conclusion
+
+Day 5 completed the hourly demand forecasting workflow, from data preparation and exploratory analysis to time-series decomposition, stationarity testing, model development, evaluation, and future-demand prediction.
+
+The generated outputs provide a foundation for short-term operational planning and more informed allocation of delivery resources.
+
+---
+
+# Overall Capstone Summary
+
+Across the five days, the project progressed through initial setup and synthetic data generation, customer and restaurant segmentation, NLP-based customer feedback analysis, delivery-time regression, and hourly order-demand forecasting.
+
+The project demonstrated an end-to-end analytical workflow involving:
+
+- Data preparation and quality assessment.
+- Exploratory data analysis and visualization.
+- Feature engineering and preprocessing.
+- Unsupervised learning for customer and restaurant segmentation.
+- NLP-based sentiment classification and complaint analysis.
+- Supervised regression modeling and model evaluation.
+- Time-series analysis and demand forecasting.
+- Interpretation of results and business recommendations.
+
+The findings should be interpreted in the context of the available datasets and observed model performance. In particular, the sentiment classification scores require validation on genuinely unseen reviews, and the delivery-time regression results indicate that additional explanatory features may be needed. Demand forecasting results should also be evaluated against the saved metrics and actual demand patterns before being used for operational decisions.
+
+Overall, the capstone provides a practical foundation for using data analytics and machine learning to explore customer behaviour, improve service operations, and support data-driven decision-making in a food delivery business.

@@ -1,0 +1,8 @@
+Component,Future Improvement
+Customer Segmentation,Experiment with additional customer behaviour features and optimize clustering parameters.
+Restaurant Segmentation,Include additional restaurant performance indicators to improve segment quality.
+Sentiment Analysis,Evaluate models on independent review data and explore additional NLP techniques.
+Delivery Time Prediction,Include additional delivery-related features and experiment with improved prediction models.
+Demand Forecasting,Collect more historical demand data and improve forecasting model performance.
+Tip Analysis,Include additional payment and order-related features to better understand tipping patterns.
+Location-Based Demand,Collect more detailed location-wise order data to improve demand planning.

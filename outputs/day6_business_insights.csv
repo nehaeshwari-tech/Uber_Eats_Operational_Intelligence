@@ -1,0 +1,8 @@
+Business Area,Key Finding,Business Insight
+Customer Segmentation,Customers are grouped into distinct segments using K-Means and DBSCAN.,Customer segments can be used to identify valuable customer groups and improve retention strategies.
+Restaurant Segmentation,Restaurants are grouped based on their operational characteristics.,Restaurant segments can help identify businesses that require operational improvement.
+Customer Sentiment,"Customer reviews contain positive, negative and neutral feedback.",Negative sentiment and complaint categories can help identify areas affecting customer satisfaction.
+Delivery Time,"Distance is the most important feature, with an importance score of approximately 0.797.",Delivery distance should be considered when planning delivery operations. The prediction model has limited explanatory power.
+Demand Forecasting,"The historical peak hour is 02:00, while the quietest hour is 06:00.",Demand patterns can support hourly delivery-capacity planning. Forecast accuracy limitations should be considered.
+Tip Analysis,"Wallet payments have the highest average tip, approximately 102.51.","Payment method and delivery conditions show differences in average tip amounts, although observed correlations are weak."
+Location-Based Demand,Bengaluru recorded 40 orders at 02:00 in the historical city-hour analysis.,Historical city-hour demand can help identify periods for closer capacity monitoring.

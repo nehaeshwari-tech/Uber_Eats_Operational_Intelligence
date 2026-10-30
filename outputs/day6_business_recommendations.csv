@@ -1,0 +1,8 @@
+Business Area,Recommendation
+Customer Segmentation,Develop targeted retention and engagement strategies for valuable customer segments.
+Restaurant Segmentation,Identify underperforming restaurant segments and provide operational support.
+Customer Sentiment,Address recurring customer complaints and improve service quality.
+Delivery Time,"Consider delivery distance, traffic and weather when planning delivery operations."
+Demand Forecasting,Use forecasted demand patterns to plan delivery-partner availability during peak hours.
+Tip Analysis,Monitor tip patterns across payment methods and delivery conditions without assuming causation.
+Location-Based Demand,Monitor city-wise hourly demand to support location-specific delivery-capacity planning.

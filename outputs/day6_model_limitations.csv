@@ -1,0 +1,8 @@
+Component,Limitation
+Customer Segmentation,"Clustering results depend on selected features, scaling and cluster parameters."
+Restaurant Segmentation,Cluster quality depends on the available restaurant features and clustering parameters.
+Sentiment Analysis,The reported perfect evaluation scores should be interpreted cautiously and may not reflect performance on unseen reviews.
+Delivery Time Prediction,"The best model has an R2 score close to zero, indicating very limited explanatory power."
+Demand Forecasting,"The Naive baseline performed best, and the reported MAPE of 100% indicates poor percentage-based forecast accuracy."
+Tip Analysis,The observed correlations with numerical variables are weak and do not establish causal relationships.
+Location-Based Demand,Historical city-wise hourly order counts do not guarantee future demand patterns.

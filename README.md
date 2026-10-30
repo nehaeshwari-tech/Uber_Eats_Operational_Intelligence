@@ -834,3 +834,36 @@ The project demonstrated an end-to-end analytical workflow involving:
 The findings should be interpreted in the context of the available datasets and observed model performance. In particular, the sentiment classification scores require validation on genuinely unseen reviews, and the delivery-time regression results indicate that additional explanatory features may be needed. Demand forecasting results should also be evaluated against the saved metrics and actual demand patterns before being used for operational decisions.
 
 Overall, the capstone provides a practical foundation for using data analytics and machine learning to explore customer behaviour, improve service operations, and support data-driven decision-making in a food delivery business.
+
+# Day 6 – End-to-End ML Pipeline & Business Insights
+
+## Objective
+Integrated the machine learning components developed in the previous days into an end-to-end pipeline and translated the results into actionable business insights and recommendations.
+
+## Work Completed
+- Integrated customer and restaurant segmentation results.
+- Integrated customer sentiment analysis.
+- Incorporated delivery-time prediction results.
+- Integrated hourly demand forecasting results.
+- Analyzed tipping patterns across payment methods and delivery conditions.
+- Analyzed historical demand across cities and hours.
+- Prepared a consolidated model comparison summary.
+- Documented business insights, recommendations, model limitations, and future improvements.
+
+## Key Deliverables
+- `notebooks/day6_end_to_end_ml_pipeline.ipynb`
+- `data/processed/day6_integrated_dataset.csv`
+- `outputs/day6_model_comparison.csv`
+- `outputs/day6_business_insights.csv`
+- `outputs/day6_business_recommendations.csv`
+- `outputs/day6_model_limitations.csv`
+- `outputs/day6_future_improvements.csv`
+
+## Key Observations
+- Distance was the most influential feature in the delivery-time model, although its overall predictive performance was limited.
+- The Naive baseline performed best among the evaluated demand forecasting models.
+- Wallet payments had the highest average tip in the descriptive analysis.
+- Historical city-hour order counts highlighted periods and locations for demand monitoring.
+
+## Conclusion
+The previous ML components were consolidated into an integrated dataset and their findings were translated into business insights, operational recommendations, limitations, and opportunities for future improvement.

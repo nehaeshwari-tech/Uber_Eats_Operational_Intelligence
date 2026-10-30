@@ -1,0 +1,6 @@
+Component,Model,Evaluation,Result
+Customer Segmentation,K-Means / DBSCAN,Silhouette Score,Refer to Day 2 evaluation
+Restaurant Segmentation,K-Means / DBSCAN,Silhouette Score,Refer to Day 2 evaluation
+Sentiment Analysis,Naive Bayes / SVM,Accuracy,1.0 for both models
+Delivery Time Prediction,Linear Regression,MAE / RMSE / R2,20.48 / 23.67 / 0.0007
+Demand Forecasting,Naive Baseline,Test MAE / RMSE,0.34 / 0.67
